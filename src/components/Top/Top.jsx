@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { TopDetails } from './TopDetails/TopDetails';
+import { TopImage } from './TopImage/TopImage';
 
 export const Top = () => {
   const [cafes, setCafes] = useState([]);
@@ -24,14 +25,16 @@ export const Top = () => {
           .sort((a, b) => b.reviews - a.reviews)
           .map((kavarny) => (
             <li>
-              <TopDetails
-                key={kavarny.id}
-                name={kavarny.place}
-                img={`/img/${kavarny.img}`}
-              />
+              <TopDetails key={kavarny.id} name={kavarny.place} />
             </li>
           ))}
       </ol>
+      {cafes
+        .filter((topky) => topky.reviews > 0)
+        .sort((a, b) => b.reviews - a.reviews)
+        .map((kavarny) => (
+          <TopImage key={kavarny.id} img={`/img/${kavarny.img}`} />
+        ))}
     </section>
   );
 };

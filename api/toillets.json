@@ -85,7 +85,7 @@
     "place": "Bio Oko",
     "address": "Františka Križka 460/15, Prague, 170 00",
     "district": "Praha 7",
-    "reviews": 1,
+    "reviews": 0,
     "img": "obrazek_vprocesu.jpg"
   },
 
@@ -104,7 +104,7 @@
     "address": "V Jirchářích 150/8, Prague, 110 00",
     "district": "Praha 1",
     "reviews": 0,
-    "img": "obrazek_vprocesu.jpg"
+    "img": "obrazek_alma.jpg"
   },
 
   {
@@ -112,7 +112,7 @@
     "place": "Sou 100",
     "address": "Štítného 625/11, Prague, 130 00",
     "district": "Praha 3",
-    "reviews": 0,
+    "reviews": 1,
     "img": "obrazek_sou100.jpg"
   },
 
