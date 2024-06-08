@@ -1,12 +1,15 @@
 import React from 'react';
 import './Header.css';
 import { Link } from 'react-router-dom';
+import Logo from '../../../assets/logo.png';
 
 export const Header = () => {
   return (
     <header>
       <div className="header__content container">
-        <div className="toillet-logo"></div>
+        <div className="toillet-logo">
+          <img src={Logo} alt="logo" />
+        </div>
 
         <div className="navigation">
           <nav className="rollout-nav nav-closed">
