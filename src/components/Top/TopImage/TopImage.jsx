@@ -1,7 +1,7 @@
 export const TopImage = ({ img, name }) => {
   return (
     <>
-      <div class="container-img">
+      <div className="container-img">
         <img src={img} alt={name} />
       </div>
     </>
