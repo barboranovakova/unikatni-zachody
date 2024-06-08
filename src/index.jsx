@@ -3,6 +3,8 @@ import { HomePage } from './pages/HomePage';
 import './global.css';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import React from 'react';
+import { App } from './components/App/App';
+import { Quiz } from './components/Quiz/Quiz';
 
 const router = createBrowserRouter([
   {
@@ -21,10 +23,10 @@ const router = createBrowserRouter([
         path: '/quiz',
         element: <Quiz />,
       },
-      {
-        path: '/toilett-detail',
-        element: <ToilettDetail />,
-      },
+      // {
+      //   path: '/toilett-detail',
+      //   element: <ToilettDetail />,
+      // },
     ],
   },
 ]);

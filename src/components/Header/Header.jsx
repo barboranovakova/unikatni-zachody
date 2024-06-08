@@ -1,14 +1,15 @@
 import React from 'react';
 import './Header.css';
+import { Link } from 'react-router-dom';
 
 export const Header = () => {
   return (
     <header>
-      <div class="header__content container">
-        <div class="toillet-logo"></div>
+      <div className="header__content container">
+        <div className="toillet-logo"></div>
 
-        <div class="navigation">
-          <nav class="rollout-nav nav-closed">
+        <div className="navigation">
+          <nav className="rollout-nav nav-closed">
             <Link to="/">Domů</Link>
             <Link to="/map">Mapa</Link>
             <a href="#Facts">Fun Facts</a>
