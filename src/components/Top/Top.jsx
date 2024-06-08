@@ -3,6 +3,7 @@ import { TopDetails } from './TopDetails/TopDetails';
 import { TopImage } from './TopImage/TopImage';
 import './Top.css';
 import Bubble from '../../../assets/bubble.png';
+import Seznam from '../../../assets/seznam.png';
 
 export const Top = () => {
   const [cafes, setCafes] = useState([]);
@@ -27,6 +28,7 @@ export const Top = () => {
   return (
     <section className="cafe-top10">
       <div className="top-headline">
+        <img src={Seznam}></img>
         <h2>TOP 10 unikátních záchodů v Praze</h2>
       </div>
 
