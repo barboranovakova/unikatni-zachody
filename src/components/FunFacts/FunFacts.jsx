@@ -1,8 +1,8 @@
 export const FunFacts = () => {
   return (
     <>
-      <section classNameName="fun-facts">
-        <div classNameName="fun-facts_cards">
+      <section className="fun-facts">
+        <div className="fun-facts_cards">
           <h2>FUN FACTS</h2>
           <button type="button" className="karticka otocena">
             FF1

@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Mono:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+
+header {
+  display: flex;
+  width: 100%;
+  height: 50px;
+  background-color: #fc97a3a0;
+  top: 0px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+
+
+}
+
+.logo {
+  max-width: 30%;
+}
+
+.toillet-logo {
+  max-width: 11rem;
+
+  position: relative;
+  transform: translateY(35%);
+
+
+}
+
+
+nav {
+  display: flex;
+  gap: 40px;
+  padding-right: 60px;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: #693A4B;
+  transition: color 0.3s ease;
+  font-family: "Red Hat Mono", medium;
+  font-size: 17px;
+
+}

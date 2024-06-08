@@ -13,7 +13,7 @@ export const Banner = () => {
             ale určitě patříš do skupiny lidí, kteří si podnik vybírají podle
             toho, jaký tam je záchod. Super! Tak kam to bude dneska?
           </p>
-          <button className="find-btn">Najít záchod</button>
+          <button class="find-btn">Najít záchod</button>
         </div>
       </section>
     </>
