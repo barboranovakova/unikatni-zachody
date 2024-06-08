@@ -1,99 +1,36 @@
+import Fun from '../../../assets/fun.png';
+import './FunFacts.css';
+import Card from '../../../assets/Rectangle.svg';
+import { useEffect, useState } from 'react';
+
 export const FunFacts = () => {
+  const [funCards, setFunCards] = useState(null);
+  useEffect(() => {
+    const fetchCards = async () => {
+      const response = await fetch('http://localhost:4000/api/fun-facts');
+      const data = await response.json();
+      setFunCards(data.data);
+    };
+
+    fetchCards();
+  }, []);
+
   return (
     <>
       <section className="fun-facts">
-        <div className="fun-facts_cards">
-          <h2>FUN FACTS</h2>
-          <button type="button" className="karticka otocena">
-            FF1
-            <div className="karticka__obsah">
-              <div className="karticka__predek">
-                <img src="" className="obrazek" />
-              </div>
-              <div className="karticka__zadek"></div>
-            </div>
-          </button>
-          <button>
-            FF2
-            <div className="karticka__obsah">
-              <div className="karticka__predek">
-                <img src="" className="obrazek" />
-              </div>
-              <div className="karticka__zadek"></div>
-            </div>
-          </button>
-          <button>
-            FF3
-            <div className="karticka__obsah">
-              <div className="karticka__predek">
-                <img src="" className="obrazek" />
-              </div>
-              <div className="karticka__zadek"></div>
-            </div>
-          </button>
-          <button>
-            FF4
-            <div className="karticka__obsah">
-              <div className="karticka__predek">
-                <img src="" className="obrazek" />
-              </div>
-              <div className="karticka__zadek"></div>
-            </div>
-          </button>
-          <button>
-            FF5
-            <div className="karticka__obsah">
-              <div className="karticka__predek">
-                <img src="" className="obrazek" />
-              </div>
-              <div className="karticka__zadek"></div>
-            </div>
-          </button>
-          <button>
-            FF6
-            <div className="karticka__obsah">
-              <div className="karticka__predek">
-                <img src="" className="obrazek" />
-              </div>
-              <div className="karticka__zadek"></div>
-            </div>
-          </button>
-          <button>
-            FF7
-            <div className="karticka__obsah">
-              <div className="karticka__predek">
-                <img src="" className="obrazek" />
-              </div>
-              <div className="karticka__zadek"></div>
-            </div>
-          </button>
-          <button>
-            FF8
-            <div className="karticka__obsah">
-              <div className="karticka__predek">
-                <img src="" className="obrazek" />
-              </div>
-              <div className="karticka__zadek"></div>
-            </div>
-          </button>
-          <button>
-            FF9
-            <div className="karticka__obsah">
-              <div className="karticka__predek">
-                <img src="" className="obrazek" />
-              </div>
-              <div className="karticka__zadek"></div>
-            </div>
-          </button>
-          <button>
-            FF10
-            <div className="karticka__obsah">
-              <div className="karticka__predek">
-                <img src="" className="obrazek" />
-              </div>
-              <div className="karticka__zadek"></div>
-            </div>
-          </button>
+        <div className="fun_title">
+          <img src={Fun}></img>
+        </div>
+        <div className="fun-facts_div">
+          {funCards
+            ? funCards.map((card) => {
+                return (
+                  <div key={card.id} className="fun-facts_cards">
+                    <div className="fun__facts-fact">{card.funfact}</div>
+                  </div>
+                );
+              })
+            : null}
         </div>
       </section>
     </>

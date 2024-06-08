@@ -88,7 +88,7 @@ p {
 
 
 .toilet_stuff2 {
-  position: fixed;
+  position: absolute;
   bottom: 10px;
   left: 10px;
   height: 40vh;
