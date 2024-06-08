@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { TopDetails } from './TopDetails/TopDetails';
 import { TopImage } from './TopImage/TopImage';
+import './Top.css';
+import Bubble from '../../../assets/bubble.png';
 
 export const Top = () => {
   const [cafes, setCafes] = useState([]);
@@ -24,10 +26,12 @@ export const Top = () => {
 
   return (
     <section className="cafe-top10">
-      <div className="container">
-        <div>
-          <h2>TOP 10 unikátních záchodů v Praze</h2>
+      <div className="top-headline">
+        <h2>TOP 10 unikátních záchodů v Praze</h2>
+      </div>
 
+      <div className="container-top">
+        <div className="cafe-list">
           <ol>
             {cafes
               .filter((topky) => topky.reviews > 0)
@@ -43,10 +47,16 @@ export const Top = () => {
               ))}
           </ol>
         </div>
+
         {chosenPicture ? (
-          <TopImage key={cafeName} img={`/img/${chosenPicture.img}`} />
+          <TopImage
+            key={cafeName}
+            img={`/img/${chosenPicture.img}`}
+            name={chosenPicture.place}
+          />
         ) : null}
       </div>
+      <img className="list-bubble" src={Bubble}></img>
     </section>
   );
 };

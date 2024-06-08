@@ -1,4 +1,5 @@
 import React from 'react';
+import './TopDetails.css';
 
 export const TopDetails = ({ onChangePicture, name, id }) => {
   const choosePicture = () => {

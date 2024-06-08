@@ -1,6 +1,67 @@
-.container {
-  width: 400px;
+.container-top {
+  width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-between;
+
+}
+
+.container-top img {
+  width: 90%;
+  max-height: 100%;
+}
+
+.top-headline {
+  width: 100%;
+  font-size: 1.3rem;
+  color: #693A4B;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 1.5;
+  letter-spacing: 5px;
+  border: #693A4B solid 1px;
+  padding-right: 1.5%;
+  padding-left: 1.5%;
+}
+
+.cafe-top10 {
+  margin: auto;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+.cafe.list {
+  height: 50%;
+}
+
+.list-bubble {
+
+  position: absolute;
+  height: 130vh;
+  left: 90%;
+  transform: translate(-50%, -50%);
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+
+  50% {
+    transform: translateX(50px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.sliding-element {
+  animation: slide 10s infinite;
+
 }
