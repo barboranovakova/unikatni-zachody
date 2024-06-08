@@ -28,3 +28,13 @@
   border: 1px solid #826cda;
 
 }
+
+.img-paper {
+  height: 100px;
+}
+
+.img-paper img {
+  position: absolute;
+  right: 40px;
+
+}

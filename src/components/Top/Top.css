@@ -3,6 +3,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  z-index: 10;
 
 }
 
@@ -40,12 +41,11 @@
   border: #693A4B solid 1px;
 }
 
-/* .list-bubble {
-
+.list-bubble {
+  transform: scaleX(-10);
   position: absolute;
-  height: 130vh;
-  left: 90%;
-  transform: translate(-50%, -50%);
+  height: 90vh;
+  left: 20%;
 }
 
 @keyframes slide {
@@ -62,7 +62,7 @@
   }
 }
 
-.sliding-element {
+.list-sliding_element {
   animation: slide 10s infinite;
 
-} */
+}
