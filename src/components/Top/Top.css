@@ -13,7 +13,7 @@
 
 .top-headline {
   width: 100%;
-  font-size: 1.3rem;
+  font-size: 1rem;
   color: #693A4B;
   display: flex;
   justify-content: center;
@@ -37,9 +37,10 @@
 
 .cafe.list {
   height: 50%;
+  border: #693A4B solid 1px;
 }
 
-.list-bubble {
+/* .list-bubble {
 
   position: absolute;
   height: 130vh;
@@ -64,4 +65,4 @@
 .sliding-element {
   animation: slide 10s infinite;
 
-}
+} */
