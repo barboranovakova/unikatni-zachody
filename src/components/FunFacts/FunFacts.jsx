@@ -2,9 +2,15 @@ import Fun from '../../../assets/fun.png';
 import './FunFacts.css';
 import Card from '../../../assets/Rectangle.svg';
 import { useEffect, useState } from 'react';
+import { ButtonCard } from '../ButtonCard/ButtonCard';
+import bgToilet from '../../../assets/toilet.png';
 
 export const FunFacts = () => {
-  const [funCards, setFunCards] = useState(null);
+  const [funCards, setFunCards] = useState(false);
+
+  const handleClick = () => {
+    setFunCards(true);
+  };
   useEffect(() => {
     const fetchCards = async () => {
       const response = await fetch('http://localhost:4000/api/fun-facts');
@@ -21,13 +27,14 @@ export const FunFacts = () => {
         <div className="fun_title">
           <img src={Fun}></img>
         </div>
+
         <div className="fun-facts_div">
           {funCards
             ? funCards.map((card) => {
                 return (
-                  <div key={card.id} className="fun-facts_cards otocena">
-                    <div className="fun__facts-fact">{card.funfact}</div>
-                  </div>
+                  <>
+                    <ButtonCard key={card.id} card={card} />
+                  </>
                 );
               })
             : null}

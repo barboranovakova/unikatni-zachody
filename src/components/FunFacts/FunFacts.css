@@ -1,5 +1,6 @@
 .fun_title img {
-  width: 250px;
+  width: 400px;
+  margin: 1.5rem;
 }
 
 .fun-facts {
@@ -13,6 +14,7 @@
 
 
 .fun-facts_cards {
+  z-index: 10;
   display: flex;
   aspect-ratio: 1 / 1;
   justify-content: center;
@@ -33,17 +35,53 @@
   }
 }
 
+.fun-facts_cards.otocena {
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
 .fun-facts_div {
+  padding: 4rem;
+  width: 80%;
   display: grid;
-  gap: 0.5rem;
+  gap: 2rem;
   grid-template-columns: repeat(5, 1fr);
   transform: scale(0.9);
   animation: zjeveni 0.3s 0.5s forwards;
-  background-color: pink;
+  background-image: url("../../../assets/toilet.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 50%;
 }
+
+.fun-facts_cards:hover {
+  transform: scale(1.2);
+}
+
+
 
 .fun__facts-fact {
   display: flex;
-
+  justify-content: center;
+  align-items: center;
+  height: 90%;
   width: 90%;
+  margin: auto;
+}
+
+.hidden {
+  display: none;
+}
+
+.toilet_logo_card {
+  width: 6rem;
+
+
+
 }
