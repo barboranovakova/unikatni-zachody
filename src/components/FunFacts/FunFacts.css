@@ -19,6 +19,11 @@
   aspect-ratio: 1 / 1;
   justify-content: center;
   align-items: center;
+  transition: transform 0.5s ease, opacity 0.5s ease;
+
+
+
+
 
 }
 
@@ -28,10 +33,15 @@
   background-image: url("./../../../assets/Rectangle.svg");
 }
 
-@keayframes zjeveni {
+@keyframes zjeveni {
+  0% {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+
   100% {
     opacity: 1;
-    transform: scale(1)
+    transform: scale(1);
   }
 }
 
@@ -58,10 +68,13 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: 50%;
+
 }
 
 .fun-facts_cards:hover {
   transform: scale(1.2);
+  opacity: 1;
+  cursor: pointer;
 }
 
 

@@ -8,7 +8,7 @@ import { useNavigate } from 'react-router-dom';
 export const Banner = () => {
   const navigate = useNavigate();
   const handleClick = () => {
-    navigate('/map');
+    navigate('/map.html');
   };
 
   return (

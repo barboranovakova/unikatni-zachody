@@ -4,6 +4,7 @@ import { TopImage } from './TopImage/TopImage';
 import './Top.css';
 import Bubble from '../../../assets/bubble.png';
 import Seznam from '../../../assets/seznam.png';
+import RectangleTop from '../../../assets/Rectangle_top.png';
 
 export const Top = () => {
   const [cafes, setCafes] = useState([]);
@@ -28,11 +29,13 @@ export const Top = () => {
   return (
     <section className="cafe-top10">
       <div className="top-headline">
-        <img src={Seznam}></img>
         <h2>TOP 10 unikátních záchodů v Praze</h2>
       </div>
 
       <div className="container-top">
+        {/* <div classname="rectangle_top">
+          <img src={RectangleTop}></img>
+        </div> */}
         <div className="cafe-list">
           <ol>
             {cafes
@@ -48,6 +51,9 @@ export const Top = () => {
                 </li>
               ))}
           </ol>
+          <div className="seznam_img">
+            <img className="seznam_img" src={Seznam}></img>
+          </div>
         </div>
 
         {chosenPicture ? (

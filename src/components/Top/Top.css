@@ -34,11 +34,20 @@
   justify-content: center;
   align-items: center;
   gap: 3rem;
+
+
+
 }
 
 .cafe.list {
   height: 50%;
   border: #693A4B solid 1px;
+
+
+}
+
+.cafe-top10 :hover {
+  cursor: pointer;
 }
 
 .list-bubble {
@@ -66,3 +75,13 @@
   animation: slide 10s infinite;
 
 }
+
+.seznam_img img {
+  width: 250px;
+
+}
+
+/* .rectangle_top img {
+  width: 200px;
+  
+} */
