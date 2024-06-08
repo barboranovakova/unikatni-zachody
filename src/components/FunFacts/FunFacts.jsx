@@ -25,7 +25,7 @@ export const FunFacts = () => {
           {funCards
             ? funCards.map((card) => {
                 return (
-                  <div key={card.id} className="fun-facts_cards">
+                  <div key={card.id} className="fun-facts_cards otocena">
                     <div className="fun__facts-fact">{card.funfact}</div>
                   </div>
                 );
