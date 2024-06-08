@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f3eaf8;
+  color: #333;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.header__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.toillet-logo {
+  /* Zde přidejte styl pro logo */
+}
+
+.navigation .rollout-nav {
+  list-style-type: none;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: #5d5477;
+  padding: 10px 20px;
+  transition: color 0.3s ease;
+}
+
+.navigation a:hover {
+  color: #352f44;
+}
+
+.main {
+  padding: 50px 0;
+}
+
+.opening h1 {
+  color: #5d5477;
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.opening p {
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.find-btn {
+  background-color: #5d5477;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.find-btn:hover {
+  background-color: #352f44;
+}
+
+.cafe-top10 h2 {
+  color: #5d5477;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.fun-facts_cards {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.fun-facts_cards h2 {
+  color: #5d5477;
+  margin-bottom: 20px;
+}
+
+.fun-facts_cards button {
+  background-color: #f3eaf8;
+  border: none;
+  padding: 10px 20px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.test {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.test h2 {
+  color: #5d5477;
+  margin-bottom: 20px;
+}
+
+.test-btn {
+  background-color: #5d5477;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.test-btn:hover {
+  background-color: #352f44;
+}
+
+.footer_icons {
+  background-color: #5d5477;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer_icons img {
+  margin: 0 10px;
+}
