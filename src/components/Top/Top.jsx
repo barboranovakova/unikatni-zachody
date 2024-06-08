@@ -27,7 +27,7 @@ export const Top = () => {
               <TopDetails
                 key={kavarny.id}
                 name={kavarny.place}
-                img={kavarny.img}
+                img={`/img/${kavarny.img}`}
               />
             </li>
           ))}
