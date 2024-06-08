@@ -1,13 +1,11 @@
 import React from 'react';
 
-export const TopDetails = () => {
+export const TopDetails = ({ name, img }) => {
   return (
     <div class="container-list">
-      <ul>
-        <li>Kavárna co hledá jméno</li>
-      </ul>
+      <p>{name}</p>
       <div class="container-img">
-        <img src="obrazekO1_cafe" alt="kavarna1" />
+        <img src={img} alt={name} />
       </div>
     </div>
   );

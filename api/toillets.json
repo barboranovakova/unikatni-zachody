@@ -4,7 +4,8 @@
     "place": "The Flat café",
     "address": "Kodaňská 81/4, Prague, 101 00",
     "district": "Praha 10",
-    "reviews": 9
+    "reviews": 9,
+    "img": "obrazek_flatcafe.jpg"
   },
 
   {
@@ -12,7 +13,8 @@
     "place": "Corner Stories",
     "address": "Ruská 460/18, Prague, 101 00",
     "district": "Praha 10",
-    "reviews": 7
+    "reviews": 7,
+    "img": "obrazek_cornerstories.jpg"
   },
 
   {
@@ -20,7 +22,8 @@
     "place": "Kavárna, co hledá jméno",
     "address": "Stroupežnického 493/10, Prague, 150 00",
     "district": "Praha 5",
-    "reviews": 4
+    "reviews": 4,
+    "img": "obrazek_kavarnacohledajmeno.jpg"
   },
 
   {
@@ -28,7 +31,8 @@
     "place": "James Dean",
     "address": "V Kolkovně 1, Prague, 110 00",
     "district": "Praha 1",
-    "reviews": 10
+    "reviews": 10,
+    "img": "obrazek_jamesdean.jpg"
   },
 
   {
@@ -36,7 +40,8 @@
     "place": "Lokál",
     "address": "Dlouhá 33, Prague, 110 00",
     "district": "Praha 1",
-    "reviews": 3
+    "reviews": 3,
+    "img": "obrazek_lokal.jpg"
   },
 
   {
@@ -44,7 +49,8 @@
     "place": "Fuze",
     "address": "Na Florenci 2139/2, Prague, 110 00",
     "district": "Praha 1",
-    "reviews": 6
+    "reviews": 6,
+    "img": "obrazek_fuze.webp"
   },
 
   {
@@ -52,7 +58,8 @@
     "place": "Červený jelen",
     "address": "Hybernská 1034/5, Prague, 110 00",
     "district": "Praha 1",
-    "reviews": 5
+    "reviews": 5,
+    "img": "obrazek_cervenyjelen.jpg"
   },
 
   {
@@ -60,7 +67,8 @@
     "place": "Steampunk",
     "address": "V kolkovně 920, Prague, 110 00",
     "district": "Praha 1",
-    "reviews": 8
+    "reviews": 8,
+    "img": "obrazek_steampunk.jpg"
   },
 
   {
@@ -68,7 +76,8 @@
     "place": "The Alchemist Bar",
     "address": "Provaznická 386/1, Prague, 110 00",
     "district": "Praha 1",
-    "reviews": 2
+    "reviews": 2,
+    "img": "obrazek_thealchemistbar.jpg"
   },
 
   {
@@ -76,7 +85,8 @@
     "place": "Bio Oko",
     "address": "Františka Križka 460/15, Prague, 170 00",
     "district": "Praha 7",
-    "reviews": 1
+    "reviews": 1,
+    "img": "obrazek_vprocesu.jpg"
   },
 
   {
@@ -84,7 +94,8 @@
     "place": "Moon Club",
     "address": "Dlouhá 709/26, Prague, 110 00",
     "district": "Praha 1",
-    "reviews": 0
+    "reviews": 0,
+    "img": "obrazek_vprocesu.jpg"
   },
 
   {
@@ -92,7 +103,8 @@
     "place": "Alma Prague",
     "address": "V Jirchářích 150/8, Prague, 110 00",
     "district": "Praha 1",
-    "reviews": 0
+    "reviews": 0,
+    "img": "obrazek_vprocesu.jpg"
   },
 
   {
@@ -100,7 +112,8 @@
     "place": "Sou 100",
     "address": "Štítného 625/11, Prague, 130 00",
     "district": "Praha 3",
-    "reviews": 0
+    "reviews": 0,
+    "img": "obrazek_sou100.jpg"
   },
 
   {
@@ -108,7 +121,8 @@
     "place": "Martinez Bar",
     "address": "Budceska 19, Prague, 120 00",
     "district": "Praha 2",
-    "reviews": 0
+    "reviews": 0,
+    "img": "obrazek_martinezbar.jpg"
   },
 
   {
@@ -116,7 +130,8 @@
     "place": "Balcony Bar",
     "address": "Jungmannovo náměstí 17, Prague, 110 00",
     "district": "Praha 1",
-    "reviews": 0
+    "reviews": 0,
+    "img": "obrazek_vprocesu.jpg"
   },
 
   {
@@ -124,7 +139,8 @@
     "place": "Modrý zub",
     "address": "Jindřišská 901, Prague, 110 00",
     "district": "Praha 1",
-    "reviews": 0
+    "reviews": 0,
+    "img": "obrazek_modryzub.jpg"
   },
 
   {
@@ -132,7 +148,8 @@
     "place": "Magistrát hlavního města Prahy",
     "address": "Mariánské nám. 2/2, Prague, 110 01",
     "district": "Praha 1",
-    "reviews": 0
+    "reviews": 0,
+    "img": "obrazek_vprocesu.jpg"
   },
 
   {
@@ -140,7 +157,8 @@
     "place": "Cinema City Flóra",
     "address": "Vinohradská 151, Prague, 130 00",
     "district": "Praha 3",
-    "reviews": 0
+    "reviews": 0,
+    "img": "obrazek_vprocesu.jpg"
   },
 
   {
@@ -148,7 +166,8 @@
     "place": "Mánes",
     "address": "Masarykovo nábřeží 250/1, Prague, 110 00",
     "district": "Praha 1",
-    "reviews": 0
+    "reviews": 0,
+    "img": "obrazek_vprocesu.jpg"
   },
 
   {
@@ -156,6 +175,7 @@
     "place": "Cafe Louvré",
     "address": "Národní 1987, Prague, 11000",
     "district": "Praha 1",
-    "reviews": 0
+    "reviews": 0,
+    "img": "obrazek_vprocesu.jpg"
   }
 ]
