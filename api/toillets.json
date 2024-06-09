@@ -6,7 +6,8 @@
     "district": "Praha 10",
     "reviews": 9,
     "img": "obrazek_flatcafe.jpg",
-    "locationGPS": [50.0710897, 14.4512656]
+    "locationGPS": [50.0710897, 14.4512656],
+    "description": "Káva & brunch & drinky pod laskavým dohledem Jejího Veličenstva. Jako doma ve Vršovicích na rohu Kodaňské a Moskevské. FLAT je tam, kde se každá návštěva cítí jako doma. A je jedno, jestli přijede z ostrovů anebo je to soused z Vršovic, umíme se postarat o všechny. Stavte se na rychlý kafe, najděte si čas na proper english breakfast nebo k nám zapadněte večer usrkávat koktejl nebo premióvý gin. FLAT bude za každé situace váš cup of tea. "
   },
   {
     "id": 2,
@@ -15,7 +16,8 @@
     "district": "Praha 10",
     "reviews": 7,
     "img": "obrazek_cornerstories.jpg",
-    "locationGPS": [50.0719908, 14.45284]
+    "locationGPS": [50.0719908, 14.45284],
+    "description": "Od první ranní kávy až po skleničku na dobrou noc. Kavárna v krásném secesním domě na pomezí Vršovic a Vinohrad. Trošku extrovertní a trošku živá od první ranní kávy po skleničku na dobrou noc. Chuť k dobrému jídlu a pití nám byla souzena už i historií našeho prostoru. V roce 1911 se přesně na tomto místě otevírala první Vršovická restaurace. Stejně jako ona tehdy, i my si dnes nejvíce zakládáme na pevných vztazích a kvalitě našich surovin. U nás Vám nabídneme pouze to nejkvalitnější, farmářské a čerstvé.Jsme metropolitní, openminded kavárna, co je tu pro Vás v mnoha formách zážitku. Stavte se u nás pro pocit a inspiraci."
   },
   {
     "id": 3,
@@ -24,7 +26,8 @@
     "district": "Praha 5",
     "reviews": 4,
     "img": "obrazek_kavarnacohledajmeno.jpg",
-    "locationGPS": [50.0697742, 14.4033703]
+    "locationGPS": [50.0697742, 14.4033703],
+    "description": "Netradiční kavárna v místě bývalé truhlárny, kde najdeš mnohem víc než jen výběrovou kávu, domácí dezerty a skvělé snídaně. Součástí je galerie, multifunkční místnost k pronájmu a dvůr, kde pod hvězdami a za doprovodu té správné melodie snadno ztratíš pojem o čase a zapomeneš, že jsi v centru města."
   },
   {
     "id": 4,
@@ -33,7 +36,8 @@
     "district": "Praha 1",
     "reviews": 10,
     "img": "obrazek_jamesdean.jpg",
-    "locationGPS": [50.0895333, 14.4221528]
+    "locationGPS": [50.0895333, 14.4221528],
+    "description": "Již při vstupu do vzdušného a dobově stylového interiéru vás ohromí monumentální sloup obložený mozaikou, jež je ručně poskládaná ze 67 000 kousků štípané keramiky, které dohromady tvoří vyobrazení Jamese Deana a Marilyn Monroe. Tato hodinářská práce trvala akademickému mistrovi 3 měsíce! Příjemné posezení vám zaručí proslulý autentický nábytek, inspirovaný sedačkami z Chevroletu Bel Air z roku 1952, vyrobený na zakázku přímo pro podnik."
   },
   {
     "id": 5,
@@ -42,7 +46,8 @@
     "district": "Praha 1",
     "reviews": 3,
     "img": "obrazek_lokal.jpg",
-    "locationGPS": [50.0906933, 14.4258814]
+    "locationGPS": [50.0906933, 14.4258814],
+    "description": "Pokud chceš v Praze na pivo, tak jedině do Lokálu. Historicky první a doslova nejdelší Lokál je na Dlouhé – má 73 metrů, na kterých roznášíme pivo z 12 tanků a kde se denně otočí i 1 500 hostů. Díky rušné adrese v samém centru Prahy je tady pořád plno a živo, a tak to máme rádi."
   },
   {
     "id": 6,
@@ -51,7 +56,8 @@
     "district": "Praha 1",
     "reviews": 6,
     "img": "obrazek_fuze.webp",
-    "locationGPS": [50.0884583, 14.4342922]
+    "locationGPS": [50.0884583, 14.4342922],
+    "description": "FUZE. Restaurace, pivovar, unikátní místo pro oslavy i firemní akce. Zkrátka pulzující podnik, který probouzí emoce, místy provokuje všechny smysly a kde si každý najde to své. Za FUZÍ stojí celá řad talentovaných lidí s chutí pouštět se do nových věcí. Hned po příchodu vás oslní osobitá práce na interiéru architektonického studia Pizingers Morix a instalace mladých designerů a kuratorované studiem ByAllMeans. Do nosu vás cvrnkne smyslná vůně fuzovaných pokrmů z kuchyně šéfkuchaře Luďka Munzara a zaručeně vás osvěží pivo naší vlastní výroby, domácí limonády, nebo naše signature koktejly, které nechybí ani v našem doporučeném parování s jednotlivými chody ze stálé nabídky. Zažijte FUZI všemi vašimi smysly! Otevřenost a rozmanitost je viditelná nejen v samotném prostoru restaurace i jejím zázemí, ale i na toaletách s genderově neutrálními kabinkami, za nimiž zpoza koutku s pisoáry vykukuje červený neonový obličej Jacka Nicholsona coby vraždícího maniaka z hororu Shining."
   },
   {
     "id": 7,
@@ -60,7 +66,8 @@
     "district": "Praha 1",
     "reviews": 5,
     "img": "obrazek_cervenyjelen.jpg",
-    "locationGPS": [50.0873128, 14.4308514]
+    "locationGPS": [50.0873128, 14.4308514],
+    "description": "Červený jelen je jako chrám plzeňského piva. Má nejlepší výčepní v Praze, kuchaře s hvězdou Michelin a obří interiér, který vystihuje pivní kulturu i historii místa. Nachází se v paláci Špork, v prostorách, které za první republiky stavitel Josef Gočár proměnil na betonový trezor Anglo-československé banky."
   },
   {
     "id": 8,
@@ -69,7 +76,8 @@
     "district": "Praha 1",
     "reviews": 8,
     "img": "obrazek_steampunk.jpg",
-    "locationGPS": [50.0896431, 14.4217064]
+    "locationGPS": [50.0896431, 14.4217064],
+    "description": "Jedinečná atmosféra v centru Prahy. Progresivní barová mixologie, špičková kuchyně, mejdany a pražský maják zábavy. Přesvědčili jsme se o tom, že ve Steampunk Prague nic není nemožný. Všechno už jste viděli, vyzkoušeli a potřebujete nové impulsy?"
   },
   {
     "id": 9,
@@ -78,7 +86,8 @@
     "district": "Praha 1",
     "reviews": 2,
     "img": "obrazek_thealchemistbar.jpg",
-    "locationGPS": [50.0845522, 14.4230544]
+    "locationGPS": [50.0845522, 14.4230544],
+    "description": "Kopyta koní oznamují příjezd hostů v černých kápích k Pražskému hradu. Vyplašení havrani vzlétají a rozpouští se v černi temných oblaků. Jen poslední se usazuje se na rameni temného jezdce. Rudolf II. si toho povšimne a na tváři se mu objeví lehký úsměv. Jeho hledání je u konce. Našel Alchymistu. Alchymista se usadil v domě v Provaznické ulici a začal s mícháním koktejlů. Vymýšlel nápoje tak lahodné, že i sám panovník zapomněl na lektvar mládí, neboť by mnohem raději zhynul v objetí chuti Alchymistových pohárů. Těsně před smrtí Alchymista ukryl největší tajemství světa, které vyloudil z unaveného císaře a zapřísahal se, že tato slova již nikdy nesmí spatřit světlo světa. O čtyři století později… Svým potomkům Alchymista o tajemství řekl jen tolik, aby je mohli ukrývat na dno každého koktejlu. Jejich nápoje se tak staly nezapomenutelné. Alchymistovi potomci dobře vědí, že kdokoliv okusí z více než deseti koktejlů, bude schopen přečíst celé tajemství ve svém srdci. Ale jeho mysl bude již tak omámena líbezností nápoje, že si jej nebude schopen zapamatovat. Myslí si, že takto mohou uchovat tajemství v bezpečí. Zkuste své štěstí a ochutnejte tajemné koktejly na tom samém místě, kde se kdysi usadil tajemný Alchymista. Těšíme se na vás."
   },
   {
     "id": 10,
@@ -87,7 +96,8 @@
     "district": "Praha 7",
     "reviews": 0,
     "img": "obrazek_vprocesu.jpg",
-    "locationGPS": [50.1000561, 14.4301708]
+    "locationGPS": [50.1000561, 14.4301708],
+    "description": "Ajajaj. Tady měl být hezký popisek o záchodu v Bio Oko, ale není. V korporátní hantýrce se tomu říká - work in progress."
   },
   {
     "id": 11,
@@ -96,7 +106,8 @@
     "district": "Praha 1",
     "reviews": 0,
     "img": "obrazek_vprocesu.jpg",
-    "locationGPS": [50.0899822, 14.4243833]
+    "locationGPS": [50.0899822, 14.4243833],
+    "description": "Ajajaj. Tady měl být hezký popisek o záchodu v Moon Club, ale není. V korporátní hantýrce se tomu říká - work in progress."
   },
   {
     "id": 12,
@@ -105,7 +116,8 @@
     "district": "Praha 1",
     "reviews": 0,
     "img": "obrazek_alma.jpg",
-    "locationGPS": [50.0800981, 14.4165092]
+    "locationGPS": [50.0800981, 14.4165092],
+    "description": "Alma je nový život uprostřed starého města. Avantgardní duše, která po dekádách chátrání ožívá na místě populárního prvorepublikového kina Alma, kam se ještě v šedesátých letech chodilo na Felliniho nebo trezorové filmy.Naše restaurace, kavárna i bar chtějí být tepajícím gastronomickým i kulturním srdcem celé Vojtěšské čtvrti, místem, kde se budete cítit doma od ranní kávy po večerní drink. Alma je nová kapitola příběhu Kro Kitchen – všechny zkušenosti z jejich provozu, nadšení, know-how i filosofii si bereme sebou a posouváme je v Almě ještě výš. Budujeme podnik, jaký jsme si vždycky přáli mít. Se zahrádkou ve vnitrobloku, historickým sklepem ožívajícím kulturními akcemi i našimi fermentačními pokusy. Organismus pulzující novými nápady, se spokojeným a energickým týmem profíků, kteří táhnou za jeden provaz. Alma je nová duše domu s dlouhou a vrstevnatou historií – jeho unikátní, velkoryse proudící prostory byly v průběhu víc než šesti století existence prvorepublikovým biografem, tiskárnou, kloboučnickou dílnou, barokním sklepením, gotickými domy, konírnou i klepárnou koží. (Odtud ostatně pochází i název ulice, kde se Alma nachází – jirchář je tradiční název pro řemeslníka zabývajícího se zpracováním jemných kůží). Inspiruje nás doba, kdy byla Praha jedním z center evropské kultury a její kavárny zásadní institucí společenského života města, a s radostí vracíme ducha svobody a poctivého řemesla na místo, kde kdysi vzkvétaly."
   },
   {
     "id": 13,
@@ -114,7 +126,8 @@
     "district": "Praha 3",
     "reviews": 1,
     "img": "obrazek_sou100.jpg",
-    "locationGPS": [50.0853608, 14.4501114]
+    "locationGPS": [50.0853608, 14.4501114],
+    "description": "Sou100 Žižkov je moderní pivní restaurace. Převažují u nás české recepty, ovšem dáte si také skvělý burger. Jídla připravujeme moderním způsobem a stejně tak je servírujeme. S láskou se věnujeme péči o naše pivo. Na čepu máme vlajková piva z pivovaru Plzeňský Prazdroj. Dostanete u nás perfektně načepované mlíko, šnyt i hladinku. Pro fajnšmekry máme připravené pivní koktejly a limonády. I když se na pivo zaměřujeme, nezapomínáme ani na milovníky dobrého vína či míchaných nápojů.Pro návrh interiéru jsme oslovili IOstudio, které bylo již v minulosti oceněno za návrhy restauračních zařízení a konceptů. Podařilo se jim vytvořit moderní, ale přesto útulnou a příjemnou atmosféru. Zároveň byly zakomponovány velmi rafinované prvky, které odkazují i na naše další projekty. Stěny připomínající bedny mají evokovat, že jsme společnost, která se zabývá také poskytováním cateringových služeb. Žlutá skla s bublinami mají kromě vytvoření intimních oddělených partií restaurace znázorňovat pivní půllitr plný zlatavého moku."
   },
   {
     "id": 14,
@@ -123,7 +136,8 @@
     "district": "Praha 2",
     "reviews": 0,
     "img": "obrazek_martinezbar.jpg",
-    "locationGPS": [50.0748453, 14.4418528]
+    "locationGPS": [50.0748453, 14.4418528],
+    "description": "Základní myšlenka je, že hosté nejprve vstoupí do tmavého sklepa a jak budou postupovat dál do jeho útrob, bude se prostředí rozjasňovat, až dojdou do prosluněné zimní zahrady s palmami. Je to něco, co by ve sklepě určitě nečekali."
   },
   {
     "id": 15,
@@ -132,7 +146,8 @@
     "district": "Praha 1",
     "reviews": 0,
     "img": "obrazek_vprocesu.jpg",
-    "locationGPS": [50.0832153, 14.4231847]
+    "locationGPS": [50.0832153, 14.4231847],
+    "description": "Vítejte v Balcony Bar Prague, v jedinečném baru v samotném srdci Prahy s výhledem na Národní třídu až k Národnímu divadlu. Nabízíme vám vše, co patří k dobře strávenému večeru nad sklenkou vína i nočnímu životu s dokonale vyladěným koktejlem. Naší specializací jsou vína, champagne a Gin&Tonic. Nabízíme též i něco malého k jídlu, můžete si vybrat mezi tapas nebo alsaskými koláči Tarte Flambeé."
   },
   {
     "id": 16,
@@ -141,7 +156,8 @@
     "district": "Praha 1",
     "reviews": 0,
     "img": "obrazek_modryzub.jpg",
-    "locationGPS": [50.0831942, 14.4270267]
+    "locationGPS": [50.0831942, 14.4270267],
+    "description": "Takhle začíná dovolená - vůně koriandru a citrónové trávy se mísí s dráždivým chilli, na stole s umělým ubrusem k vám stoupá jemně lechtivá pára z polévky Tom Yum kung a vy nadšeně pozorujete tanec kuchařů u woku. Ta lehkost a obratnost s jakou přehazují široké, dlouhé nudle, je okouzlující. Pro evropské turisty rýžové Phad Thai, nebo pověstné Gra Pao, pro místní usmaží křupavý bůček a k tomu namíchají opravdu ostrý salát Som Tam. Vy teď ale pořád nevíte, jestli si máte dát po polévce zelené, nebo červené kari. Když se konečně rozhodnete, bojujete pak s hůlkami v domnění, že je to tady tradice. Nakonec vás zaskočí oříšková chuť bílé rýže, jakou jste u nás doma u tak prostého jídla, jakou je vařená rýže ještě neobjevili. Je to totiž rýže jasmínová- zaslíbená v zemích vycházejícího slunce. Ano, jste právě v Thajsku a kocháte se barvami a chutěmi, které se vám představí ve své nejlepší sytosti a svěžesti … anebo jste v thajské restauraci v Praze! Dovolte nám představit naší výjimečnou thajskou restauraci Modrý zub, která již více než dvacet let přináší do Prahy Thajsko. Barevné a chutné, vařené autentickými thajskými kuchaři. To je Modrý zub Spálená, Jindřišská a Anděl. Ve všech třech našich provozovnách najdete chutě sladké, slané, pálivé i kyselé. V té nejlepší kvalitě jako ve slunném Thajsku. Po jarních závitcích alias Spring Rolls byste se doslova utloukli a v zimních měsících nedáte dopustit na polévku Phở nebo pálivé Jungle kari? Tak nečekejte a doražte k nám, anebo si v teple domova v zimních měsících a v létě v klimatizovaných pobočkách, počkejte na svou „krabičku“. Pak si sedněte. Do parku, na lavičku, do kanceláře… zavřete oči, dejte si sousto a představte si, že jste v Thajsku"
   },
   {
     "id": 17,
@@ -150,7 +166,8 @@
     "district": "Praha 1",
     "reviews": 0,
     "img": "obrazek_vprocesu.jpg",
-    "locationGPS": [50.0871086, 14.4178294]
+    "locationGPS": [50.0871086, 14.4178294],
+    "description": "Ajajaj. Tady měl být hezký popisek o záchodu v Moon Club, ale není. V korporátní hantýrce se tomu říká - work in progress."
   },
   {
     "id": 18,
@@ -159,7 +176,8 @@
     "district": "Praha 3",
     "reviews": 0,
     "img": "obrazek_vprocesu.jpg",
-    "locationGPS": [50.0782947, 14.4612972]
+    "locationGPS": [50.0794036, 14.4609867],
+    "description": "Ajajaj. Tady měl být hezký popisek o záchodu v Cinema City, ale není. V korporátní hantýrce se tomu říká - work in progress."
   },
   {
     "id": 19,
@@ -168,7 +186,8 @@
     "district": "Praha 1",
     "reviews": 0,
     "img": "obrazek_vprocesu.jpg",
-    "locationGPS": [50.0774986, 14.4141103]
+    "locationGPS": [50.0782947, 14.4612972],
+    "description": "Ajajaj. Tady měl být hezký popisek o záchodu v Mánesu, ale není. V korporátní hantýrce se tomu říká - work in progress."
   },
   {
     "id": 20,
@@ -177,6 +196,7 @@
     "district": "Praha 1",
     "reviews": 0,
     "img": "obrazek_vprocesu.jpg",
-    "locationGPS": [50.0821003, 14.418725]
+    "locationGPS": [50.0821003, 14.418725],
+    "description": "Ajajaj. Tady měl být hezký popisek o záchodu v Café Louvré, ale není. V korporátní hantýrce se tomu říká - work in progress."
   }
 ]
