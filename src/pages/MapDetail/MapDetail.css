@@ -1,0 +1,10 @@
+.detail_container img {
+  max-width: 40%;
+}
+
+.detail_container {
+  background-image: url("../../../assets/pozadi.jpeg");
+  background-size: 100vh;
+
+
+}

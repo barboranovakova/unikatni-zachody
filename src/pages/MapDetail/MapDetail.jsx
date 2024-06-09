@@ -1,5 +1,6 @@
 import { useParams } from 'react-router-dom';
 import { useState, useEffect } from 'react';
+import './MapDetail.css';
 
 export const MapDetail = () => {
   const { id } = useParams();
@@ -15,5 +16,14 @@ export const MapDetail = () => {
     fetchCafe();
   }, []);
 
-  return <>{cafeDetail.name}</>;
+  return (
+    <>
+      {cafeDetail ? (
+        <div className="detail_container">
+          <h1>{cafeDetail.place}</h1>
+          <img src={`../../../img/${cafeDetail.img}`} />
+        </div>
+      ) : null}
+    </>
+  );
 };

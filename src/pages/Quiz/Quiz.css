@@ -1,0 +1,53 @@
+.quiz_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 800px;
+
+}
+
+/* 
+.bubble_chat img {
+
+  position: absolute;
+  height: 130vh;
+  left: 90%;
+  transform: translate(-50%, -50%);
+
+
+} */
+/* 
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+
+  50% {
+    transform: translateX(50px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.sliding-element {
+  animation: slide 10s infinite;
+
+} */
+
+.unicorn_chat img {
+  max-width: 30%;
+
+
+
+}
+
+.unicorn_chat {
+  position: relative;
+
+}
+
+.unicorn_img {
+  width: 30%;
+}
