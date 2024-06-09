@@ -62,7 +62,6 @@ export const Top = () => {
           />
         ) : null}
       </div>
-
       <img className="list-sliding_element list-bubble" src={Bubble}></img>
     </section>
   );

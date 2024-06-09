@@ -51,29 +51,32 @@
 }
 
 .list-bubble {
-  transform: scaleX(-10);
   position: absolute;
   height: 90vh;
-  left: 20%;
+  left: 30%;
 }
 
 @keyframes slide {
   0% {
-    transform: translateX(0);
+
+    transform: translateX(0) scaleX(-1);
+
+
   }
 
   50% {
-    transform: translateX(50px);
+    transform: translateX(50px) scaleX(-1);
   }
 
   100% {
-    transform: translateX(0);
+
+    transform: translateX(0) scaleX(-1);
+
   }
 }
 
 .list-sliding_element {
   animation: slide 10s infinite;
-
 }
 
 .seznam_img img {
