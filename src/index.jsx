@@ -4,7 +4,8 @@ import './global.css';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import React from 'react';
 import { App } from './components/App/App';
-import { Quiz } from './components/Quiz/Quiz';
+import { Quiz } from './pages/Quiz/Quiz';
+import { Map } from './pages/Map/Map';
 
 const router = createBrowserRouter([
   {

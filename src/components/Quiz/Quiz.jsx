@@ -6,7 +6,7 @@ import Papir from '../../../assets/papir.png';
 export const Quiz = () => {
   const navigate = useNavigate();
   const handleClick = () => {
-    navigate('/quiz.html');
+    navigate('/quiz');
   };
   return (
     <>

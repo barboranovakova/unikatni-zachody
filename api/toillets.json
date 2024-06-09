@@ -5,177 +5,178 @@
     "address": "Kodaňská 81/4, Prague, 101 00",
     "district": "Praha 10",
     "reviews": 9,
-    "img": "obrazek_flatcafe.jpg"
+    "img": "obrazek_flatcafe.jpg",
+    "locationGPS": [50.0710897, 14.4512656]
   },
-
   {
     "id": 2,
     "place": "Corner Stories",
     "address": "Ruská 460/18, Prague, 101 00",
     "district": "Praha 10",
     "reviews": 7,
-    "img": "obrazek_cornerstories.jpg"
+    "img": "obrazek_cornerstories.jpg",
+    "locationGPS": [50.0719908, 14.45284]
   },
-
   {
     "id": 3,
     "place": "Kavárna, co hledá jméno",
     "address": "Stroupežnického 493/10, Prague, 150 00",
     "district": "Praha 5",
     "reviews": 4,
-    "img": "obrazek_kavarnacohledajmeno.jpg"
+    "img": "obrazek_kavarnacohledajmeno.jpg",
+    "locationGPS": [50.0697742, 14.4033703]
   },
-
   {
     "id": 4,
     "place": "James Dean",
     "address": "V Kolkovně 1, Prague, 110 00",
     "district": "Praha 1",
     "reviews": 10,
-    "img": "obrazek_jamesdean.jpg"
+    "img": "obrazek_jamesdean.jpg",
+    "locationGPS": [50.0895333, 14.4221528]
   },
-
   {
     "id": 5,
     "place": "Lokál",
     "address": "Dlouhá 33, Prague, 110 00",
     "district": "Praha 1",
     "reviews": 3,
-    "img": "obrazek_lokal.jpg"
+    "img": "obrazek_lokal.jpg",
+    "locationGPS": [50.0906933, 14.4258814]
   },
-
   {
     "id": 6,
     "place": "Fuze",
     "address": "Na Florenci 2139/2, Prague, 110 00",
     "district": "Praha 1",
     "reviews": 6,
-    "img": "obrazek_fuze.webp"
+    "img": "obrazek_fuze.webp",
+    "locationGPS": [50.0884583, 14.4342922]
   },
-
   {
     "id": 7,
     "place": "Červený jelen",
     "address": "Hybernská 1034/5, Prague, 110 00",
     "district": "Praha 1",
     "reviews": 5,
-    "img": "obrazek_cervenyjelen.jpg"
+    "img": "obrazek_cervenyjelen.jpg",
+    "locationGPS": [50.0873128, 14.4308514]
   },
-
   {
     "id": 8,
     "place": "Steampunk",
     "address": "V kolkovně 920, Prague, 110 00",
     "district": "Praha 1",
     "reviews": 8,
-    "img": "obrazek_steampunk.jpg"
+    "img": "obrazek_steampunk.jpg",
+    "locationGPS": [50.0896431, 14.4217064]
   },
-
   {
     "id": 9,
     "place": "The Alchemist Bar",
     "address": "Provaznická 386/1, Prague, 110 00",
     "district": "Praha 1",
     "reviews": 2,
-    "img": "obrazek_thealchemistbar.jpg"
+    "img": "obrazek_thealchemistbar.jpg",
+    "locationGPS": [50.0845522, 14.4230544]
   },
-
   {
     "id": 10,
     "place": "Bio Oko",
     "address": "Františka Križka 460/15, Prague, 170 00",
     "district": "Praha 7",
     "reviews": 0,
-    "img": "obrazek_vprocesu.jpg"
+    "img": "obrazek_vprocesu.jpg",
+    "locationGPS": [50.1000561, 14.4301708]
   },
-
   {
     "id": 11,
     "place": "Moon Club",
     "address": "Dlouhá 709/26, Prague, 110 00",
     "district": "Praha 1",
     "reviews": 0,
-    "img": "obrazek_vprocesu.jpg"
+    "img": "obrazek_vprocesu.jpg",
+    "locationGPS": [50.0899822, 14.4243833]
   },
-
   {
     "id": 12,
     "place": "Alma Prague",
     "address": "V Jirchářích 150/8, Prague, 110 00",
     "district": "Praha 1",
     "reviews": 0,
-    "img": "obrazek_alma.jpg"
+    "img": "obrazek_alma.jpg",
+    "locationGPS": [50.0800981, 14.4165092]
   },
-
   {
     "id": 13,
     "place": "Sou 100",
     "address": "Štítného 625/11, Prague, 130 00",
     "district": "Praha 3",
     "reviews": 1,
-    "img": "obrazek_sou100.jpg"
+    "img": "obrazek_sou100.jpg",
+    "locationGPS": [50.0853608, 14.4501114]
   },
-
   {
     "id": 14,
     "place": "Martinez Bar",
-    "address": "Budceska 19, Prague, 120 00",
+    "address": "Budečská 19, Prague, 120 00",
     "district": "Praha 2",
     "reviews": 0,
-    "img": "obrazek_martinezbar.jpg"
+    "img": "obrazek_martinezbar.jpg",
+    "locationGPS": [50.0748453, 14.4418528]
   },
-
   {
     "id": 15,
     "place": "Balcony Bar",
     "address": "Jungmannovo náměstí 17, Prague, 110 00",
     "district": "Praha 1",
     "reviews": 0,
-    "img": "obrazek_vprocesu.jpg"
+    "img": "obrazek_vprocesu.jpg",
+    "locationGPS": [50.0832153, 14.4231847]
   },
-
   {
     "id": 16,
     "place": "Modrý zub",
     "address": "Jindřišská 901, Prague, 110 00",
     "district": "Praha 1",
     "reviews": 0,
-    "img": "obrazek_modryzub.jpg"
+    "img": "obrazek_modryzub.jpg",
+    "locationGPS": [50.0831942, 14.4270267]
   },
-
   {
     "id": 17,
     "place": "Magistrát hlavního města Prahy",
     "address": "Mariánské nám. 2/2, Prague, 110 01",
     "district": "Praha 1",
     "reviews": 0,
-    "img": "obrazek_vprocesu.jpg"
+    "img": "obrazek_vprocesu.jpg",
+    "locationGPS": [50.0871086, 14.4178294]
   },
-
   {
     "id": 18,
     "place": "Cinema City Flóra",
     "address": "Vinohradská 151, Prague, 130 00",
     "district": "Praha 3",
     "reviews": 0,
-    "img": "obrazek_vprocesu.jpg"
+    "img": "obrazek_vprocesu.jpg",
+    "locationGPS": [50.0782947, 14.4612972]
   },
-
   {
     "id": 19,
     "place": "Mánes",
     "address": "Masarykovo nábřeží 250/1, Prague, 110 00",
     "district": "Praha 1",
     "reviews": 0,
-    "img": "obrazek_vprocesu.jpg"
+    "img": "obrazek_vprocesu.jpg",
+    "locationGPS": [50.0774986, 14.4141103]
   },
-
   {
     "id": 20,
     "place": "Cafe Louvré",
     "address": "Národní 1987, Prague, 11000",
     "district": "Praha 1",
     "reviews": 0,
-    "img": "obrazek_vprocesu.jpg"
+    "img": "obrazek_vprocesu.jpg",
+    "locationGPS": [50.0821003, 14.418725]
   }
 ]
