@@ -35,18 +35,19 @@ export const Top = () => {
       <div className="container-top">
         <div className="cafe-list">
           <ol>
-            {cafes
-              .filter((topky) => topky.reviews > 0)
-              .sort((a, b) => b.reviews - a.reviews)
-              .map((kavarny) => (
-                <li key={kavarny.id}>
-                  <TopDetails
-                    name={kavarny.place}
-                    id={kavarny.id}
-                    onChangePicture={setCafeName}
-                  />
-                </li>
-              ))}
+            {cafes &&
+              cafes
+                .filter((topky) => topky.reviews > 0)
+                .sort((a, b) => b.reviews - a.reviews)
+                .map((kavarny) => (
+                  <li key={kavarny.id}>
+                    <TopDetails
+                      name={kavarny.place}
+                      id={kavarny.id}
+                      onChangePicture={setCafeName}
+                    />
+                  </li>
+                ))}
           </ol>
           <div className="seznam_img">
             <img className="seznam_img" src={Seznam}></img>

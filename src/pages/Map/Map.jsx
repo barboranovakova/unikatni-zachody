@@ -5,6 +5,7 @@ import 'leaflet/dist/leaflet.css';
 import './Map.css';
 import { useEffect, useState } from 'react';
 import ToilletPin from '../../../assets/toilet_pin.png';
+import { Link } from 'react-router-dom';
 
 const MAPY_API_KEY = 'onLlCN6Gk8QhJGV9SOwjG4ubi9iKUznrSpAgbGXsysg';
 const mapyCzUrl = `https://api.mapy.cz/v1/maptiles/basic/256/{z}/{x}/{y}?apikey=${MAPY_API_KEY}`;
@@ -81,7 +82,9 @@ export const Map = () => {
                       <img src={Logo} alt="Logo Czechitas" width={100} />
 
                       <p>{adresa.place}</p>
-                      <button>Ukaž mi více</button>
+                      <button key={adresa.id}>
+                        <Link to={`/map/${adresa.id}`}>Ukaž mi více</Link>
+                      </button>
                     </div>
                   </Popup>
                 </Marker>
