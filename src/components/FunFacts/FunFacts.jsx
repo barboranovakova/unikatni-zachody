@@ -23,7 +23,7 @@ export const FunFacts = () => {
 
   return (
     <>
-      <section className="fun-facts">
+      <section id="Facts" className="fun-facts">
         <div className="fun_title">
           <img src={Fun}></img>
         </div>

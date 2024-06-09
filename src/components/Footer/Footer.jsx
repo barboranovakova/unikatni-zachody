@@ -6,7 +6,7 @@ import Instagram from '../../../assets/instagram_ikonka.png';
 export const Footer = () => {
   return (
     <>
-      <footer>
+      <footer id="contact">
         <div className="containter-footer">
           <div className="footer_icons">
             <img src={Instagram} alt="ikona_instagram" />

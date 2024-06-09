@@ -33,9 +33,6 @@ export const Top = () => {
       </div>
 
       <div className="container-top">
-        {/* <div classname="rectangle_top">
-          <img src={RectangleTop}></img>
-        </div> */}
         <div className="cafe-list">
           <ol>
             {cafes
