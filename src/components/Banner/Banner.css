@@ -1,8 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Red+Hat+Mono:wght@400;700&display=swap");
 
-body {
-  cursor: url("../../../assets/plunger.png"), pointer;
-}
+
+
 
 .opening {
 
@@ -72,6 +71,7 @@ p {
 .find-btn:hover {
   background-color: #705ce353;
   border: 1px solid #826cda;
+  cursor: url("../../../assets/plunger_cursor_small.png"), pointer;
 
 
 

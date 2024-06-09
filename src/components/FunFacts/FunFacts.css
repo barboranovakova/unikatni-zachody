@@ -61,7 +61,7 @@
   width: 80%;
   display: grid;
   gap: 2rem;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   transform: scale(0.9);
   animation: zjeveni 0.3s 0.5s forwards;
   background-image: url("../../../assets/toilet.png");
@@ -94,13 +94,47 @@
 
 .toilet_logo_card {
   width: 6rem;
-
-
-
 }
 
 .fun__facts-fact p {
   font-size: 14px;
   font-family: "Red Hat Mono";
   font-weight: bold;
+}
+
+@media (max-width: 840px) {
+  .fun-facts_div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(1, 1fr);
+    display: grid;
+    background-image: none;
+
+  }
+
+  .fun-facts_cards.otocena {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .fun__facts-fact p {
+    font-size: 12px;
+
+  }
+
+  .toilet_logo_card {
+    width: 8rem;
+  }
+
+  .fun-facts_cards:hover {
+    transform: scale(1.2);
+    opacity: 1;
+    cursor: pointer;
+
+  }
+
+
+
 }

@@ -25,7 +25,7 @@ export const MapDetail = () => {
             <div className="text_container">
               <h1>{cafeDetail.place}</h1>
               <p>
-                <strong>Adresa:</strong>
+                <strong>Adresa: </strong>
                 {cafeDetail.address}
               </p>
               <p>{cafeDetail.description}</p>
