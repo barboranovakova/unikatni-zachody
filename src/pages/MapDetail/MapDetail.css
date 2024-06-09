@@ -1,10 +1,50 @@
 .detail_container img {
-  max-width: 40%;
+  max-width: 30%;
+  border-radius: 2rem;
+
+
+
+}
+
+.detail_obsah {
+  margin: 80px;
+  display: flex;
+  flex-direction: row-reverse;
+
 }
 
 .detail_container {
   background-image: url("../../../assets/pozadi.jpeg");
-  background-size: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-size: 120%;
+  background-repeat: no-repeat;
 
+}
+
+
+
+@media (min-width: 840px) {
+  .detail_container {
+    flex-direction: row;
+  }
+
+  .text_container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+}
+
+.text_container h1 {
+
+  background-color: #9ca2dc5b;
+}
+
+.text_container p {
+  margin: 50px;
+  margin-top: 0;
+  margin-bottom: 0;
 
 }

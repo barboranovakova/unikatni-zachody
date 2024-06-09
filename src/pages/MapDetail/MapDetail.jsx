@@ -20,8 +20,17 @@ export const MapDetail = () => {
     <>
       {cafeDetail ? (
         <div className="detail_container">
-          <h1>{cafeDetail.place}</h1>
-          <img src={`../../../img/${cafeDetail.img}`} />
+          <div className="detail_obsah">
+            <img src={`../../../img/${cafeDetail.img}`} />
+            <div className="text_container">
+              <h1>{cafeDetail.place}</h1>
+              <p>
+                <strong>Adresa:</strong>
+                {cafeDetail.address}
+              </p>
+              <p>{cafeDetail.description}</p>
+            </div>
+          </div>
         </div>
       ) : null}
     </>

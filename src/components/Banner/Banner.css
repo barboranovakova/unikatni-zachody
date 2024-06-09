@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Red+Hat+Mono:wght@400;700&display=swap");
 
+body {
+  cursor: url("../../../assets/plunger.png"), pointer;
+}
+
 .opening {
 
   height: 80vh;
@@ -39,7 +43,7 @@ p {
   color: #693A4B;
 }
 
-.main_text {}
+
 
 .second_text {
   text-align: center;
@@ -68,6 +72,8 @@ p {
 .find-btn:hover {
   background-color: #705ce353;
   border: 1px solid #826cda;
+
+
 
 }
 
