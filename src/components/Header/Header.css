@@ -21,6 +21,7 @@ header {
 
 .logo {
   max-width: 30%;
+  z-index: 9;
 
 }
 
@@ -29,6 +30,7 @@ header {
 
   position: relative;
   transform: translateY(35%);
+  z-index: 9;
 
 
 }

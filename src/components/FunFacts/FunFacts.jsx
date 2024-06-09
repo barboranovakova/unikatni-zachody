@@ -2,7 +2,7 @@ import Fun from '../../../assets/fun.png';
 import './FunFacts.css';
 import Card from '../../../assets/Rectangle.svg';
 import { useEffect, useState } from 'react';
-import { ButtonCard } from '../ButtonCard/ButtonCard';
+import { ButtonCard } from './ButtonCard/ButtonCard';
 import bgToilet from '../../../assets/toilet.png';
 
 export const FunFacts = () => {

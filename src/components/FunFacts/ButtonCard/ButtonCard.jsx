@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import logoToilet from '../../../assets/unicorn.png';
+import logoToilet from '../../../../assets/unicorn.png';
 
 export const ButtonCard = ({ card }) => {
   const [otocena, setOtocena] = useState(false);

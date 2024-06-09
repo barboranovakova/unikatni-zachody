@@ -98,3 +98,9 @@
 
 
 }
+
+.fun__facts-fact p {
+  font-size: 14px;
+  font-family: "Red Hat Mono";
+  font-weight: bold;
+}

@@ -62,7 +62,7 @@ export const Map = () => {
     <main>
       <MapContainer
         center={czechitasPosition}
-        zoom={13}
+        zoom={14}
         scrollWheelZoom={false}
       >
         <TileLayer
@@ -78,11 +78,9 @@ export const Map = () => {
               return (
                 <Marker icon={toilettIcon} position={adresa.locationGPS}>
                   <Popup>
-                    <div>
-                      <img src={Logo} alt="Logo Czechitas" width={100} />
-
-                      <p>{adresa.place}</p>
-                      <button key={adresa.id}>
+                    <div className="popup-container">
+                      <p className="name-text">{adresa.place}</p>
+                      <button className="showme-btn" key={adresa.id}>
                         <Link to={`/map/${adresa.id}`}>Ukaž mi více</Link>
                       </button>
                     </div>
