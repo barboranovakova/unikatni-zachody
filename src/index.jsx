@@ -6,6 +6,7 @@ import React from 'react';
 import { App } from './components/App/App';
 import { Quiz } from './pages/Quiz/Quiz';
 import { Map } from './pages/Map/Map';
+import { MapDetail } from './pages/MapDetail/MapDetail';
 
 const router = createBrowserRouter([
   {
@@ -21,14 +22,14 @@ const router = createBrowserRouter([
         element: <Map />,
       },
       {
-        path: '/quiz',
-        element: <Quiz />,
+        path: '/map/:id',
+        element: <MapDetail />,
       },
-      // {
-      //   path: '/toilett-detail',
-      //   element: <ToilettDetail />,
-      // },
     ],
+  },
+  {
+    path: '/quiz',
+    element: <Quiz />,
   },
 ]);
 createRoot(document.querySelector('#app')).render(

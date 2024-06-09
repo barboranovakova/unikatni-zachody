@@ -4,6 +4,7 @@ import Logo from '../../../assets/logo.png';
 import 'leaflet/dist/leaflet.css';
 import './Map.css';
 import { useEffect, useState } from 'react';
+import ToilletPin from '../../../assets/toilet_pin.png';
 
 const MAPY_API_KEY = 'onLlCN6Gk8QhJGV9SOwjG4ubi9iKUznrSpAgbGXsysg';
 const mapyCzUrl = `https://api.mapy.cz/v1/maptiles/basic/256/{z}/{x}/{y}?apikey=${MAPY_API_KEY}`;
@@ -29,6 +30,19 @@ const LogoControl = ({ position }) => {
   );
 };
 
+const toilettIcon = L.icon({
+  iconUrl: ToilletPin,
+
+  iconSize: [60, 55], // velikost ikony
+
+  iconAnchor: [20, 34], // umístění pinu ikonky korespondující s lokací
+
+  popupAnchor: [7, -40], // umístění pop up okna
+  shadowUrl: null,
+  shadowSize: null,
+  shadowAnchor: null,
+});
+
 export const Map = () => {
   const czechitasPosition = [50.0833886, 14.4252626];
 
@@ -42,8 +56,6 @@ export const Map = () => {
 
     fetchAdress();
   }, []);
-
-  console.log(adress);
 
   return (
     <main>
@@ -59,33 +71,23 @@ export const Map = () => {
           url={mapyCzUrl}
         />
         <LogoControl />
-        <Marker position={czechitasPosition}>
-          <Popup>
-            <div>
-              <img src={Logo} alt="Logo Czechitas" width={100} />
-            </div>
-            Tady se tvoří budoucnost IT.
-          </Popup>
-        </Marker>
 
         {adress.length > 1
           ? adress.map((adresa) => {
               return (
-                <Marker position={adresa.locationGPS}>
+                <Marker icon={toilettIcon} position={adresa.locationGPS}>
                   <Popup>
                     <div>
                       <img src={Logo} alt="Logo Czechitas" width={100} />
+
                       <p>{adresa.place}</p>
+                      <button>Ukaž mi více</button>
                     </div>
                   </Popup>
                 </Marker>
               );
             })
           : null}
-
-        <Marker position={[50.5, 14.4252626]}></Marker>
-        <Marker position={[50.26, 14.4252626]}></Marker>
-        <Marker position={[50.5, 14.7]}></Marker>
       </MapContainer>
     </main>
   );
