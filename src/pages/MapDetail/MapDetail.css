@@ -40,6 +40,12 @@
 .text_container h1 {
 
   background-color: #9ca2dc5b;
+  width: 450px;
+  border-radius: 10rem;
+  margin-left: 50px;
+  font-size: 30px;
+
+
 }
 
 .text_container p {

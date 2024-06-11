@@ -29,6 +29,10 @@ export const MapDetail = () => {
                 {cafeDetail.address}
               </p>
               <p>{cafeDetail.description}</p>
+              <p>
+                <strong>Unikatnost: </strong>
+                {cafeDetail.unikatnost}
+              </p>
             </div>
           </div>
         </div>
