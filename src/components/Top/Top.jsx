@@ -25,7 +25,6 @@ export const Top = () => {
     return cafes ? cafes.find((obrazek) => obrazek.id === cafeName) : null;
   };
   const chosenPicture = changePicture();
-  console.log(chosenPicture ? chosenPicture.img : null);
 
   const navigate = useNavigate();
   const handleClick = () => {

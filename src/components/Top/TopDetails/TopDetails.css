@@ -2,3 +2,9 @@
   border-radius: 2rem;
   text-align: left;
 }
+
+.cafe-list {
+  border: 1px solid #3300FF80;
+  border-radius: 20px;
+  width: 70%;
+}
