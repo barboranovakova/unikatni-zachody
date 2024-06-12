@@ -5,6 +5,7 @@ import './Top.css';
 import Bubble from '../../../assets/bubble.png';
 import Seznam from '../../../assets/seznam.png';
 import RectangleTop from '../../../assets/Rectangle_top.png';
+import { useNavigate } from 'react-router-dom';
 
 export const Top = () => {
   const [cafes, setCafes] = useState([]);
@@ -25,6 +26,11 @@ export const Top = () => {
   };
   const chosenPicture = changePicture();
   console.log(chosenPicture ? chosenPicture.img : null);
+
+  const navigate = useNavigate();
+  const handleClick = () => {
+    navigate(`/map/${chosenPicture.id}`);
+  };
 
   return (
     <section className="cafe-top10">
@@ -59,6 +65,7 @@ export const Top = () => {
             key={cafeName}
             img={`/img/${chosenPicture.img}`}
             name={chosenPicture.place}
+            onHandleClick={handleClick}
           />
         ) : null}
       </div>

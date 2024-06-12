@@ -2,7 +2,7 @@ import './TopImage.css';
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
-export const TopImage = ({ img, name }) => {
+export const TopImage = ({ img, name, onHandleClick }) => {
   const [adress, setAdress] = useState([]);
   useEffect(() => {
     const fetchAdress = async () => {
@@ -20,7 +20,9 @@ export const TopImage = ({ img, name }) => {
         <h4>{name}</h4>
         <img src={img} alt={name} />
 
-        <button className="showme-btn_image">Ukaž mi více</button>
+        <button onClick={onHandleClick} className="showme-btn_image">
+          Ukaž mi více
+        </button>
       </div>
     </>
   );
