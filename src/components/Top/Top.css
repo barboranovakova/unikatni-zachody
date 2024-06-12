@@ -79,6 +79,10 @@
   animation: slide 10s infinite;
 }
 
+.seznam_img {
+  position: relative;
+}
+
 .seznam_img img {
   width: 250px;
 
