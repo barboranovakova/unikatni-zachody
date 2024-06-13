@@ -12,7 +12,7 @@
   max-height: 100%;
 }
 
-.top-headline {
+.top-headline h2 {
   width: 100%;
   font-size: 1rem;
   color: #693A4B;
@@ -85,5 +85,23 @@
 
 .seznam_img img {
   width: 250px;
+
+}
+
+@media (max-width: 640px) {
+  .top-headline h2 {
+    font-size: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-wrap: nowrap;
+
+    border: none;
+    letter-spacing: 0;
+    text-align: center;
+    padding-top: 20%;
+    border-bottom: #693A4B 1px solid;
+
+  }
 
 }

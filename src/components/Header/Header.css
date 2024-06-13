@@ -17,6 +17,7 @@ header {
   z-index: 9;
 
 
+
 }
 
 .logo {
@@ -61,8 +62,7 @@ header {
   right: 0;
   background-color: #fddfff;
   z-index: 1000;
-
-
+  gap: 10px
 }
 
 .navigation a {
