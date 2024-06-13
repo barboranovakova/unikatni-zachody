@@ -1,6 +1,12 @@
 .fun_title img {
   width: 400px;
   margin: 1.5rem;
+
+}
+
+.fun_title {
+  margin-left: 100px;
+  margin-top: 100px;
 }
 
 .fun-facts {
@@ -99,7 +105,7 @@
 .fun__facts-fact p {
   font-size: 14px;
   font-family: "Red Hat Mono";
-  font-weight: bold;
+
 }
 
 @media (max-width: 840px) {

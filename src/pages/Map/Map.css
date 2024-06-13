@@ -1,7 +1,8 @@
 .leaflet-container {
   height: 600px;
+  width: 1200px;
   margin: 4%;
-  border-radius: 20px;
+  border-radius: 10px;
 
 }
 
@@ -12,7 +13,6 @@
   box-shadow: 0 3px 3px #3048bf46;
   color: #693A4B;
   font-size: 12px;
-  font-weight: bold;
   padding: 0.8rem;
   padding-right: 2rem;
   padding-left: 2rem;
@@ -20,11 +20,17 @@
   transition: all 0.3s ease;
   z-index: 10;
   font-family: "Red Hat Mono";
+
+}
+
+.showme-btn a {
+  text-decoration: none;
+  color: #693A4B;
 }
 
 .showme-btn:hover {
   background-color: #705ce353;
-  border: 1px solid #826cda;
+
 
 }
 
@@ -39,4 +45,9 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+
+}
+
+.leaflet-container {
+  margin-left: 110px
 }

@@ -9,7 +9,7 @@ header {
   display: flex;
   width: 100%;
   height: 50px;
-  background-color: #fc97a3a0;
+  background-color: #fddfff;
   top: 0px;
   justify-content: space-between;
   align-items: center;
@@ -79,7 +79,7 @@ nav {
   transition-duration: 0.8s
 }
 
-/* .navigation a::after {
+.navigation a::after {
 
   position: absolute;
   left: 0;
@@ -92,8 +92,9 @@ nav {
 
 .navigation a:hover::after {
   width: 100%;
-} */
-/* .menu__btn {
+}
+
+.menu__btn {
   display: block;
   background-color: transparent;
   background-image: url("./../../../assets/menu-btn.png");
@@ -103,7 +104,7 @@ nav {
   margin: 0.75rem;
   border: none;
   cursor: pointer;
-} */
+}
 
 .nav-closed {
   display: none;
@@ -112,14 +113,16 @@ nav {
 
 @media (min-width: 768px) {
   .navigation a {
+    display: flex;
     flex-direction: row;
+
   }
 
 
 
 
   .nav-closed {
-    display: block;
+    display: none;
   }
 
   .menu-btn {

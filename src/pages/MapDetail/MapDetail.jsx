@@ -1,10 +1,15 @@
-import { useParams } from 'react-router-dom';
+import { useParams, useNavigate } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 import './MapDetail.css';
 
 export const MapDetail = () => {
   const { id } = useParams();
   const [cafeDetail, setCafeDetail] = useState([]);
+
+  const navigate = useNavigate();
+  const handleClick = () => {
+    navigate('/map');
+  };
 
   useEffect(() => {
     const fetchCafe = async () => {
@@ -20,6 +25,9 @@ export const MapDetail = () => {
     <>
       {cafeDetail ? (
         <div className="detail_container">
+          <button onClick={handleClick} className="zpet">
+            zpět
+          </button>
           <div className="detail_obsah">
             <img src={`../../../img/${cafeDetail.img}`} />
             <div className="text_container">
