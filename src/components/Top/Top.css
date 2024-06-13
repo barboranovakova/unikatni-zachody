@@ -13,14 +13,14 @@
 }
 
 .top-headline h2 {
-  width: 100%;
-  font-size: 1rem;
+  /* width: 100%; */
+  font-size: 30px;
   color: #693A4B;
   display: flex;
   justify-content: center;
   align-items: center;
   line-height: 1.5;
-  letter-spacing: 5px;
+  letter-spacing: 2px;
   border: #693A4B solid 1px;
   padding-right: 1.5%;
   padding-left: 1.5%;
