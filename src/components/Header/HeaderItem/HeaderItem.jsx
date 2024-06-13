@@ -3,7 +3,7 @@ import './HeaderItem.css';
 
 export const HeaderItem = ({ onSelect }) => {
   return (
-    <nav>
+    <>
       <Link to="/" onClick={onSelect} className="menu-item">
         Domů
       </Link>
@@ -16,6 +16,6 @@ export const HeaderItem = ({ onSelect }) => {
       <a href="#contact" onClick={onSelect} className="menu-item">
         Kontakt
       </a>
-    </nav>
+    </>
   );
 };

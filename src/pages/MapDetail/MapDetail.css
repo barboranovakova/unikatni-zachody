@@ -14,6 +14,7 @@
 }
 
 .detail_container {
+  height: 100vh;
   background-image: url("../../../assets/pozadi.jpeg");
   display: flex;
   flex-direction: column;

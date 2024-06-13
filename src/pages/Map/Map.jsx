@@ -6,6 +6,7 @@ import './Map.css';
 import { useEffect, useState } from 'react';
 import ToilletPin from '../../../assets/toilet_pin.png';
 import { Link } from 'react-router-dom';
+import adress from '../../../api/toillets.json';
 
 const MAPY_API_KEY = 'onLlCN6Gk8QhJGV9SOwjG4ubi9iKUznrSpAgbGXsysg';
 const mapyCzUrl = `https://api.mapy.cz/v1/maptiles/basic/256/{z}/{x}/{y}?apikey=${MAPY_API_KEY}`;
@@ -47,16 +48,16 @@ const toilettIcon = L.icon({
 export const Map = () => {
   const czechitasPosition = [50.0833886, 14.4252626];
 
-  const [adress, setAdress] = useState([]);
-  useEffect(() => {
-    const fetchAdress = async () => {
-      const response = await fetch('http://localhost:4000/api/toillets');
-      const data = await response.json();
-      setAdress(data.data);
-    };
+  // const [adress, setAdress] = useState([]);
+  // useEffect(() => {
+  //   const fetchAdress = async () => {
+  //     const response = await fetch('http://localhost:4000/api/toillets');
+  //     const data = await response.json();
+  //     setAdress(data.data);
+  //   };
 
-    fetchAdress();
-  }, []);
+  //   fetchAdress();
+  // }, []);
 
   return (
     <main>

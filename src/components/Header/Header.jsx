@@ -8,7 +8,7 @@ import { useState } from 'react';
 export const Header = () => {
   const [menuOpened, setMenuOpened] = useState(false);
   const handleSelectItem = () => {
-    setMenuOpened(false);
+    setMenuOpened(!menuOpened);
   };
 
   return (
@@ -18,13 +18,25 @@ export const Header = () => {
           <img className="toillet-logo" src={Logo} alt="logo" />
         </Link>
       </div>
-      <div className={menuOpened ? 'navigation' : 'navigation nav-closed'}>
-        {/* <button
-          className="menu__btn"
-          onClick={() => setMenuOpened(!menuOpened)}
-        ></button> */}
+      <div className="hamburger-menu">
+        <button className="menu-icon" onClick={handleSelectItem}></button>
+        <nav className={`navigation ${menuOpened ? 'open' : ' '}`}>
+          <HeaderItem onSelect={handleSelectItem} />
+        </nav>
+      </div>
+      <div className="desktop-menu">
+        <nav className="navigation">
+          <HeaderItem onSelect={handleSelectItem} />
+        </nav>
+      </div>
+
+      {/* <div className="navigation">
         <HeaderItem onSelect={handleSelectItem} />
       </div>
+      <div className="hamburger-menu nav-closed">
+        <button className="menu__btn" onClick={handleSelectItem}></button>
+        <HeaderItem onSelect={handleSelectItem} />
+      </div> */}
     </header>
   );
 };

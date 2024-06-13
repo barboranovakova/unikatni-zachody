@@ -1,6 +1,7 @@
 import { useParams, useNavigate } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 import './MapDetail.css';
+import cafeData from '../../../api/toillets.json';
 
 export const MapDetail = () => {
   const { id } = useParams();
@@ -8,18 +9,22 @@ export const MapDetail = () => {
 
   const navigate = useNavigate();
   const handleClick = () => {
-    navigate('/map');
+    navigate('/map/');
   };
 
   useEffect(() => {
-    const fetchCafe = async () => {
-      const response = await fetch(`http://localhost:4000/api/toillets/${id}`);
-      const data = await response.json();
-      setCafeDetail(data.data);
-    };
+    const data = cafeData.find((cafe) => cafe.id === parseInt(id));
+    setCafeDetail(data);
+  }, [id]);
+  // useEffect(() => {
+  //   const fetchCafe = async () => {
+  //     const response = await fetch(`http://localhost:4000/api/toillets/${id}`);
+  //     const data = await response.json();
+  //     setCafeDetail(data.data);
+  //   };
 
-    fetchCafe();
-  }, []);
+  //   fetchCafe();
+  // }, []);
 
   return (
     <>
@@ -37,10 +42,12 @@ export const MapDetail = () => {
                 {cafeDetail.address}
               </p>
               <p>{cafeDetail.description}</p>
-              <p>
-                <strong>Unikatnost: </strong>
-                {cafeDetail.unikatnost}
-              </p>
+              {cafeDetail.unikatnost ? (
+                <p>
+                  <strong>Unikátnost: </strong>
+                  {cafeDetail.unikatnost}
+                </p>
+              ) : null}
             </div>
           </div>
         </div>
