@@ -33,3 +33,18 @@ footer {
   justify-content: center;
   gap: 10px;
 }
+
+@media (max-width: 600px) {
+  .footer_icons {
+    padding-top: 10%;
+  }
+
+  .footer_text {
+    display: flex;
+    color: white;
+    font-size: 10px;
+    text-align: center;
+    flex-direction: column;
+  }
+
+}
