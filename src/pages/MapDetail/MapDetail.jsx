@@ -16,15 +16,6 @@ export const MapDetail = () => {
     const data = cafeData.find((cafe) => cafe.id === parseInt(id));
     setCafeDetail(data);
   }, [id]);
-  // useEffect(() => {
-  //   const fetchCafe = async () => {
-  //     const response = await fetch(`http://localhost:4000/api/toillets/${id}`);
-  //     const data = await response.json();
-  //     setCafeDetail(data.data);
-  //   };
-
-  //   fetchCafe();
-  // }, []);
 
   return (
     <>

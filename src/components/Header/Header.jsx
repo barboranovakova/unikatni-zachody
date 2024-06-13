@@ -29,14 +29,6 @@ export const Header = () => {
           <HeaderItem onSelect={handleSelectItem} />
         </nav>
       </div>
-
-      {/* <div className="navigation">
-        <HeaderItem onSelect={handleSelectItem} />
-      </div>
-      <div className="hamburger-menu nav-closed">
-        <button className="menu__btn" onClick={handleSelectItem}></button>
-        <HeaderItem onSelect={handleSelectItem} />
-      </div> */}
     </header>
   );
 };

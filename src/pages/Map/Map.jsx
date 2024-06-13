@@ -48,17 +48,6 @@ const toilettIcon = L.icon({
 export const Map = () => {
   const czechitasPosition = [50.0833886, 14.4252626];
 
-  // const [adress, setAdress] = useState([]);
-  // useEffect(() => {
-  //   const fetchAdress = async () => {
-  //     const response = await fetch('http://localhost:4000/api/toillets');
-  //     const data = await response.json();
-  //     setAdress(data.data);
-  //   };
-
-  //   fetchAdress();
-  // }, []);
-
   return (
     <main>
       <MapContainer

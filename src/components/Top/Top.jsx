@@ -9,20 +9,8 @@ import { useNavigate } from 'react-router-dom';
 import cafes from './../../../api/toillets.json';
 
 export const Top = () => {
-  // const [cafes, setCafes] = useState([]);
-
   const [cafeName, setCafeName] = useState(1);
 
-  // useEffect(() => {
-  //   const fetchCafes = async () => {
-  //     const response = await fetch('http://localhost:4000/api/toillets');
-  //     const data = await response.json();
-  //     setCafes(zachodyData);
-
-  //   };
-
-  //   fetchCafes();
-  // }, []);
   const changePicture = () => {
     return cafes ? cafes.find((obrazek) => obrazek.id === cafeName) : null;
   };
