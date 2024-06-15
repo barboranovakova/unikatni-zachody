@@ -9,9 +9,15 @@ export const Footer = () => {
       <footer id="contact">
         <div className="containter-footer">
           <div className="footer_icons">
-            <img src={Instagram} alt="ikona_instagram" />
-            <img src={Facebook} alt="ikona_facebook" />
-            <img src={Mail} alt="ikona_mail" />
+            <a href="https://www.instagram.com/brbora_n/" target="_blank">
+              <img src={Instagram} alt="ikona_instagram" />
+            </a>
+            <a href="https://www.facebook.com/vartui.saribekyan/">
+              <img src={Facebook} alt="ikona_facebook" />
+            </a>
+            <a href="mailto:vartvioline@gmail.com">
+              <img src={Mail} alt="ikona_mail" />
+            </a>
           </div>
           <div>
             <p className="footer_text">

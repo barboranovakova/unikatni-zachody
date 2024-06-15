@@ -1,5 +1,4 @@
 import React from 'react';
-import './TopDetails.css';
 
 export const TopDetails = ({ onChangePicture, name, id }) => {
   const choosePicture = () => {
@@ -7,7 +6,7 @@ export const TopDetails = ({ onChangePicture, name, id }) => {
   };
 
   return (
-    <div className="container-list">
+    <div className="cafe-list">
       <p onClick={choosePicture}>{name}</p>
     </div>
   );

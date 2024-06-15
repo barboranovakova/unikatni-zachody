@@ -4,7 +4,6 @@ import { TopImage } from './TopImage/TopImage';
 import './Top.css';
 import Bubble from '../../../assets/bubble.png';
 import Seznam from '../../../assets/seznam.png';
-import RectangleTop from '../../../assets/Rectangle_top.png';
 import { useNavigate } from 'react-router-dom';
 import cafes from './../../../api/toillets.json';
 

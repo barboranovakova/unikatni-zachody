@@ -1,59 +1,60 @@
 .container-top {
-  width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
   z-index: 10;
 
 }
 
-.container-top img {
-  width: 90%;
-  max-height: 100%;
-}
+.cafe-list {}
+
+
+
+
 
 .top-headline h2 {
-  /* width: 100%; */
   font-size: 30px;
   color: #693A4B;
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
   line-height: 1.5;
   letter-spacing: 2px;
   border: #693A4B solid 1px;
   padding-right: 1.5%;
   padding-left: 1.5%;
+
 }
 
 .cafe-top10 {
-  margin: auto;
-  width: 60%;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 3rem;
 
-
-
 }
 
-.cafe.list {
-  height: 50%;
-  border: #693A4B solid 1px;
-
-
+li p:hover {
+  background-color: #fbd1d6e4;
+  padding: 10px;
+  border-radius: 10px;
+  filter: drop-shadow(0px 2px 2px #f48695bf);
 }
 
-.cafe-top10 :hover {
+.cafe-list :hover {
   cursor: pointer;
+
+
 }
 
 .list-bubble {
   position: absolute;
   height: 90vh;
-  left: 30%;
+
 }
 
 @keyframes slide {
@@ -79,12 +80,14 @@
   animation: slide 10s infinite;
 }
 
-.seznam_img {
-  position: relative;
-}
+
 
 .seznam_img img {
   width: 250px;
+  position: absolute;
+  margin-left: 10%;
+
+
 
 }
 
@@ -95,7 +98,6 @@
     justify-content: center;
     align-items: left;
     flex-wrap: nowrap;
-
     border: none;
     letter-spacing: 0;
     text-align: center;
@@ -104,4 +106,11 @@
 
   }
 
+  .seznam_img img {
+    width: 20%;
+  }
+
+  .li p {
+    margin: 0;
+  }
 }

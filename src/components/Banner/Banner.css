@@ -139,7 +139,7 @@ p {
   }
 
   .toilet_stuff2 {
-    display: none;
+    height: 200px;
   }
 
   h1 {
@@ -155,7 +155,7 @@ p {
   }
 
   .opening {
-    margin: 35% auto;
+    margin: auto;
 
   }
 

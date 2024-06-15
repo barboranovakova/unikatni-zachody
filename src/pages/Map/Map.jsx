@@ -70,6 +70,7 @@ export const Map = () => {
                   <Popup>
                     <div className="popup-container">
                       <p className="name-text">{adresa.place}</p>
+
                       <button className="showme-btn" key={adresa.id}>
                         <Link to={`/map/${adresa.id}`}>Ukaž mi více</Link>
                       </button>

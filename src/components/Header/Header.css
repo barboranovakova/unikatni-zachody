@@ -28,7 +28,6 @@ header {
 
 .toillet-logo {
   max-width: 11rem;
-
   position: relative;
   transform: translateY(35%);
   z-index: 9;
@@ -58,12 +57,15 @@ header {
   display: flex;
   flex-direction: column;
   position: absolute;
-  top: 30px;
   right: 0;
-  background-color: #fddfff;
+  background-color: #fccbffcc;
   z-index: 1000;
-  gap: 10px
+  gap: 10px;
+  border-radius: 10px;
+  border-bottom: #693A4B 1px;
+  width: 100px;
 }
+
 
 .navigation a {
   text-decoration: none;
@@ -72,7 +74,6 @@ header {
   font-family: "Red Hat Mono", medium;
   font-size: 17px;
   z-index: 9;
-
   cursor: pointer;
 }
 
@@ -91,12 +92,11 @@ header {
   height: 1px;
   background-color: #693A4B;
   transition: width 0.3s ease;
-  /* Přechodový efekt pro šířku */
+
 }
 
 .navigation a:hover::after {
   width: 100%;
-
   transition-duration: 0.8s
 }
 
@@ -152,9 +152,3 @@ header {
 
 
 }
-
-
-
-/* .hamburger-menu {
-    display: none;
-  } */
