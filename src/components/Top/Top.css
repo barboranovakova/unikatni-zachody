@@ -180,34 +180,24 @@ li p:hover {
     justify-content: center;
     align-items: left;
     flex-wrap: nowrap;
-
-
     border: none;
     letter-spacing: 0;
     text-align: center;
-
     border-bottom: #693A4B 1px solid;
     margin-left: 5%;
     margin-right: 5%;
     padding-left: 1%;
-
-
   }
 
-
   .cafe-top10 {
-
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 0.1rem;
-
-
   }
 
   .seznam_img img {
     display: none;
-
   }
 }

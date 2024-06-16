@@ -121,7 +121,7 @@
   border: 1px solid #826cda;
 }
 
-.main_content {
+.main_content-quiz {
   z-index: 1;
   position: relative;
 
@@ -175,10 +175,10 @@ h2 {
 
 
   p {
-    font-size: 10px;
+    /* font-size: 18px; */
     display: flex;
     flex-wrap: wrap;
-    width: 300px;
+    /* width: 300px; */
   }
 
   .btn_back_quiz {

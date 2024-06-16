@@ -9,15 +9,15 @@ import 'https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser
 
 const questions = [
   {
-    question: 'Jakou máte dneska náladu?',
+    question: 'Jakou máš dneska náladu?',
     options: ['nic moc', 'v pohodě', 'zlobivou'],
   },
   {
-    question: 'Jaká je vaše oblíbená barva?',
+    question: 'Jaká je tvoje oblíbená barva?',
     options: ['bíla', 'červená', 'modrá'],
   },
   {
-    question: 'Vyberte si svoji oblíbenou kuchyni:',
+    question: 'Vyber si svoji oblíbenou kuchyni:',
     options: ['italská', 'česká', 'asijská'],
   },
 ];
@@ -101,7 +101,7 @@ export const Quiz = () => {
           </button>
         </div>
       ) : showQuiz ? (
-        <div className="main_content">
+        <div className="main_content-quiz">
           <h2>{questions[currentQuestion].question}</h2>
           <div className="questions_button">
             {questions[currentQuestion].options.map((option, index) => (
@@ -118,7 +118,7 @@ export const Quiz = () => {
       ) : (
         result && (
           <div>
-            <h2>TADA!!Tohle je tvůj idealní záchod:</h2>
+            <h2>TADÁ!!! Tohle je tvůj idealní záchod:</h2>
             <div className="result_container">
               <p>
                 <strong>{result.place}</strong>
