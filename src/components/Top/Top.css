@@ -34,8 +34,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 3rem;
 
-  padding-bottom: 5%
 }
 
 li p:hover {
@@ -207,9 +207,7 @@ li p:hover {
   }
 
   .seznam_img img {
-    width: 40%;
-    top: 175%;
-    right: 0;
+    display: none;
 
   }
 }
