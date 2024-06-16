@@ -21,7 +21,7 @@ export const MapDetail = () => {
     <>
       {cafeDetail ? (
         <div className="detail_container">
-          <button onClick={handleClick} className="btn_back">
+          <button onClick={handleClick} className="zpet">
             zpět
           </button>
 

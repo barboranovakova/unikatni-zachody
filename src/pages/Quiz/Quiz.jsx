@@ -9,15 +9,15 @@ import 'https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser
 
 const questions = [
   {
-    question: 'Jakou mate dneska náladu?',
-    options: ['nic moc', 'v pohodě', 'zlobiva'],
+    question: 'Jakou máte dneska náladu?',
+    options: ['nic moc', 'v pohodě', 'zlobivou'],
   },
   {
-    question: 'Vyberte si barvu ??',
+    question: 'Jaká je vaše oblíbená barva?',
     options: ['bíla', 'červená', 'modrá'],
   },
   {
-    question: 'Vyberte si kuchyň ?',
+    question: 'Vyberte si svoji oblíbenou kuchyni:',
     options: ['italská', 'česká', 'asijská'],
   },
 ];
