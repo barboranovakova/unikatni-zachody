@@ -40,7 +40,6 @@
 
 li p:hover {
   background-color: #fbd1d6e4;
-  padding: 10px;
   border-radius: 10px;
   filter: drop-shadow(0px 2px 2px #f48695bf);
 }
