@@ -9,7 +9,7 @@
 
 .btn_chat {
   position: absolute;
-  background-color: #af9cfb50;
+  background-color: #FFF0FE;
   border: 0.5px solid #4D85D9;
   border-radius: 30px;
   box-shadow: 0 3px 3px #3048bf46;
@@ -27,6 +27,7 @@
   left: 50%;
   transform: translate(-90%, -120%);
 
+
 }
 
 .btn_chat:hover {
@@ -38,31 +39,23 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-left: 30%;
+  height: 100vh;
+
 
 }
 
-/* 
-@keyframes slide {
-  0% {
-    transform: translateX(0);
-  }
+.bubble_chat {
+  z-index: -1;
+  position: absolute;
+  height: 70vh;
+  margin-right: 60%;
+  margin-top: 10%;
 
-  50% {
-    transform: translateX(50px);
-  }
-
-  100% {
-    transform: translateX(0);
-  }
 }
-
-.sliding-element {
-  animation: slide 10s infinite;
-
-} */
 
 .unicorn_chat img {
-  max-width: 100%;
+  max-width: 80%;
 }
 
 .unicorn_chat {
@@ -74,10 +67,98 @@
 
 }
 
-.main_content {
+.btn_back_quiz {
+  background-color: #af9cfb50;
+  border: 0.5px solid #4D85D9;
+  border-radius: 30px;
+  box-shadow: 0 3px 3px #3048bf46;
+  color: #693A4B;
+  font-size: 15px;
+  padding: 0.5rem;
+  margin: 1rem;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  z-index: 10;
+  font-family: "Red Hat Mono";
   position: relative;
+  top: -300px;
+  right: 300px;
+}
+
+.questions_button {
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: relative;
+}
 
+.questions_chat {
+  position: relative;
+}
+
+.answer_button {
+  background-color: #FFF0FE;
+  border: 0.5px solid #4D85D9;
+  border-radius: 30px;
+  box-shadow: 0 3px 3px #3048bf46;
+  color: #693A4B;
+  font-size: 16px;
+  padding: 0.8rem;
+  margin: 2rem;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  z-index: 10;
+  font-family: "Red Hat Mono";
+
+}
+
+.answer_button:hover {
+  background-color: #705ce353;
+  border: 1px solid #826cda;
+}
+
+.main_content {
+  z-index: 1;
+  position: relative;
+
+}
+
+h2 {
+  font-size: 30px;
+  color: #693A4B;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.result_container img {
+  max-width: 50%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.result_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 600px;
+}
+
+.result_container.specific_result {
+  text-align: center;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 20px;
+}
+
+.result_container p {
+  font-size: 16px;
 }

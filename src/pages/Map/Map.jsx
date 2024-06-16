@@ -1,9 +1,8 @@
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
-import Logo from '../../../assets/logo.png';
 
 import 'leaflet/dist/leaflet.css';
 import './Map.css';
-import { useEffect, useState } from 'react';
+
 import ToilletPin from '../../../assets/toilet_pin.png';
 import { Link } from 'react-router-dom';
 import adress from '../../../api/toillets.json';
