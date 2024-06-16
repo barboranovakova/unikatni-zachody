@@ -91,9 +91,6 @@ p {
 
 }
 
-
-
-
 .toilet_stuff1 {
   position: absolute;
   height: 30vh;
@@ -128,80 +125,7 @@ p {
 
 }
 
-@media (max-width: 400px) {
-  p {
-    font-size: 15px;
-    color: #693A4B;
-  }
-
-  .bubble {
-    display: none;
-  }
-
-  .sliding-element {
-    display: none;
-  }
-
-  .toilet_stuff1 {
-    display: none;
-  }
-
-  .toilet_stuff2 {
-    height: 200px;
-    opacity: 60%;
-  }
-
-  h1 {
-    font-size: 25px;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    padding-left: 20px;
-    font-size: 25px;
-    text-align: center;
-    padding-top: 35%;
-
-
-  }
-
-  .opening {
-    margin: auto;
-
-  }
-
-  .find-btn {
-    background-color: #af9cfb50;
-    border: 0.5px solid #4D85D9;
-    border-radius: 30px;
-    box-shadow: 0 3px 3px #3048bf46;
-    color: #693A4B;
-    font-size: 16px;
-
-    margin: 0.6rem auto;
-    padding-right: 1rem;
-    padding-left: 1rem;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    z-index: 10;
-    font-family: "Red Hat Mono";
-
-
-  }
-
-  .second_text {
-    text-align: left;
-    line-height: 1.5;
-    padding-bottom: 10px;
-  }
-}
-
-
 @media (max-width: 840px) {
-  p {
-    font-size: 16px;
-    color: #693A4B;
-  }
-
   .bubble {
     display: none;
   }
@@ -215,8 +139,7 @@ p {
   }
 
   .toilet_stuff2 {
-    height: 200px;
-    opacity: 60%;
+    height: 100px;
   }
 
   h1 {
@@ -227,7 +150,7 @@ p {
     padding-left: 20px;
     font-size: 25px;
     text-align: center;
-
+    padding-top: 20%;
 
   }
 
@@ -243,8 +166,8 @@ p {
     box-shadow: 0 3px 3px #3048bf46;
     color: #693A4B;
     font-size: 16px;
-
-    margin: 0.6rem auto;
+    padding: 1.5rem;
+    margin: 0.3rem auto;
     padding-right: 1rem;
     padding-left: 1rem;
     cursor: pointer;

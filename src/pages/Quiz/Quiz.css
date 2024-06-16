@@ -146,7 +146,7 @@ h2 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 600px;
+  width: 500px;
 }
 
 .result_container.specific_result {
@@ -161,4 +161,30 @@ h2 {
 
 .result_container p {
   font-size: 16px;
+}
+
+@media (max-width: 400px) {
+
+  .page_content {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 0;
+    height: 100vh;
+
+  }
+
+
+  p {
+    font-size: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+  }
+
+  .btn_back_quiz {
+
+    position: fixed;
+    top: 5rem;
+    right: 17rem;
+  }
 }
