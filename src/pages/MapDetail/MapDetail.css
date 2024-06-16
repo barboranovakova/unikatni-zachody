@@ -6,6 +6,13 @@
 
 }
 
+h3 {
+  font-size: 40px;
+  text-align: center;
+  align-self: center;
+  color: #693A4B;
+}
+
 .detail_obsah {
   margin: 80px;
   display: flex;
@@ -17,13 +24,18 @@
   height: 100vh;
   background-image: url("../../../assets/pozadi.jpeg");
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   background-size: 120%;
   background-repeat: no-repeat;
 
 }
 
+.text_container-detail {
+  display: flex;
+  flex-direction: column;
+
+}
 
 
 @media (min-width: 840px) {
@@ -33,12 +45,12 @@
 
   .text_container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row-reverse;
     gap: 30px;
   }
 }
 
-.text_container h1 {
+.text_container h3 {
 
 
   width: 450px;
@@ -74,4 +86,70 @@
   position: relative;
   top: -150px;
   left: 50px;
+}
+
+@media (max-width: 420px) {
+
+  h3 {
+    display: flex;
+    justify-content: center;
+    padding-right: 15%;
+    padding-left: 15%;
+
+
+
+    font-size: 35px;
+    width: auto;
+
+
+
+    text-align: center;
+    color: #693A4B;
+    display: flex;
+
+
+
+  }
+
+  .detail_container img {
+    max-width: 100%;
+
+    border-radius: 1rem;
+    margin-top: 10%;
+  }
+
+  .detail_obsah {
+    margin: 20px;
+    /* Menší okraje pro mobilní zařízení */
+    display: flex;
+    flex-direction: column;
+    /* Změna směru na sloupec pro mobilní zařízení */
+  }
+
+  .detail_container {
+    height: auto;
+    /* Výška auto pro lepší skrolování */
+    background-size: cover;
+    /* Změna na cover pro lepší pokrytí pozadí */
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+  }
+
+
+
+  .text_container p {
+    margin: 20px;
+
+
+  }
+
+  .zpet {
+    top: 45px;
+    left: 20px;
+
+    align-self: flex-start;
+  }
+
+
 }

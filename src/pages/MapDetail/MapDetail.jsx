@@ -24,10 +24,13 @@ export const MapDetail = () => {
           <button onClick={handleClick} className="zpet">
             zpět
           </button>
+
           <div className="detail_obsah">
-            <img src={`../../../img/${cafeDetail.img}`} />
             <div className="text_container">
-              <h1>{cafeDetail.place}</h1>
+              <img src={`../../../img/${cafeDetail.img}`} />
+            </div>
+            <div className="text_container-detail">
+              <h3>{cafeDetail.place}</h3>
               <p>
                 <strong>Adresa: </strong>
                 {cafeDetail.address}
