@@ -7,21 +7,6 @@ import bgToilet from '../../../assets/toilet.png';
 import funCards from '../../../api/fun-facts.json';
 
 export const FunFacts = () => {
-  // const [funCards, setFunCards] = useState(false);
-
-  // const handleClick = () => {
-  //   setFunCards(true);
-  // };
-  // useEffect(() => {
-  //   const fetchCards = async () => {
-  //     const response = await fetch('http://localhost:4000/api/fun-facts');
-  //     const data = await response.json();
-  //     setFunCards(data.data);
-  //   };
-
-  //   fetchCards();
-  // }, []);
-
   return (
     <>
       <section id="Facts" className="fun-facts">
