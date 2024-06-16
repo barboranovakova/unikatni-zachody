@@ -1,6 +1,6 @@
 footer {
   background-color: #8165f0dd;
-  height: 20vh;
+  height: 30vh;
   padding: 2.5rem 1.5rem;
   font-size: 1.2rem;
 
@@ -34,10 +34,9 @@ footer {
   gap: 10px;
 }
 
+
 @media (max-width: 600px) {
-  .footer_icons {
-    padding-top: 10%;
-  }
+
 
   .footer_text {
     display: flex;
@@ -46,5 +45,6 @@ footer {
     text-align: center;
     flex-direction: column;
   }
+
 
 }

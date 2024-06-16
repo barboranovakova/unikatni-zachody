@@ -21,7 +21,7 @@ export const Footer = () => {
           </div>
           <div>
             <p className="footer_text">
-              Unikátní záchody vytvořili Vardui Saribekian & Barbora Nováková.
+              Unikátní záchody vytvořily Vardui Saribekian & Barbora Nováková.
             </p>
             <p className="footer_text">
               Speciální poděkování patří Týně Woloszczukové, Andrejce Tilcerové

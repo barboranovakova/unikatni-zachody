@@ -175,10 +175,10 @@ h2 {
 
 
   p {
-    /* font-size: 18px; */
+
     display: flex;
     flex-wrap: wrap;
-    /* width: 300px; */
+
   }
 
   .btn_back_quiz {
